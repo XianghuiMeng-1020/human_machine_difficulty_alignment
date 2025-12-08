@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 明确忽略这三个超大 CSV（非常关键）
+data/eedi/train_data/train_task_1_2.csv
+race_prepared/race_mcq_all.csv
+race_prepared/race_mcq_train.csv
+
+# 常见大模型文件（按需）
+*.pt
+*.bin
+*.h5
+*.ckpt
+
+# macOS
+.DS_Store
