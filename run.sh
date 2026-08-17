@@ -1,0 +1,5 @@
+python scripts/Eedi_human_difficulty_analysis.py --inputs data/eedi/train_data/train_task_1_2.csv data/eedi/train_data/train_task_3_4.csv --out_dir Eedi_analysis --easy_thr 0.8 --hard_thr 0.4
+# 
+python scripts/RACE_prepare_and_designer_stats.py --train_mid data/RACE/train_mid.jsonl --train_high data/RACE/train_high.jsonl --val_mid data/RACE/dev_mid.jsonl --val_high data/RACE/dev_mid.jsonl --out_dir race_prepared 
+# 分析 RACE 验证集视图（BERT/LLM 准确率 + Data Map 指标）
+python scripts/RACE_analyze_views_with_datamap.py --race_val_csv race_prepared/race_mcq_val.csv --bert_pred_csv race_trainedmodels_5e-4_e5_256bs/models_bigbird-roberta-base/val_predictions.csv --bert_td_csv race_trainedmodels_5e-4_e5_256bs/models_bigbird-roberta-base/training_dynamics_val.csv --llm_res_jsonl LLM_out/gpt4o_1124/race_llm_prompts_val_gpt.jsonl --out_dir race_analysis_with_datamap

@@ -1,0 +1,49 @@
+protocol_id: race_mcq_letter_only_v1_frozen
+created_utc: "2026-08-06T00:00:00Z"
+purpose: >
+  Frozen LLM answering protocol for FODE-D-26-00032 P0-4.
+  Retries must NOT change decoding parameters.
+
+task: multiple_choice_letter_only
+prompt_file: prompts/race_mcq_prompt.txt
+system_prompt: ""
+response_format: single_letter_ABCD
+decoding:
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 4
+timeout_seconds: 120
+max_retries: 2
+retry_rule: >
+  Retry only on transport/API failure or unparseable output.
+  Retries MUST reuse identical temperature/top_p/max_tokens/prompt.
+  Do not raise temperature to recover a parseable answer.
+
+backends:
+  - llm_run_id: llm_deepseek_frozen_v1
+    provider: deepseek
+    exact_model_id_env: DEEPSEEK_MODEL
+    base_url_env: DEEPSEEK_BASE_URL
+    api_key_env: DEEPSEEK_API_KEY
+  - llm_run_id: llm_gpt_frozen_v1
+    provider: openai_compatible
+    exact_model_id_env: GPT_MODEL
+    base_url_env: GPT_BASE_URL
+    api_key_env: GPT_API_KEY
+  - llm_run_id: llm_doubao_frozen_v1
+    provider: volcengine_ark
+    exact_model_id_env: DOUBAO_MODEL
+    base_url_env: ARK_BASE_URL
+    api_key_env: ARK_API_KEY
+
+voting:
+  rule: two_out_of_three
+  no_consensus_if: fewer_than_2_backends_agree
+
+contamination_note: >
+  RACE is a public benchmark. High LLM accuracy may reflect benchmark exposure
+  or contamination and must not be interpreted as pure general reasoning ability.
+
+legacy_runs:
+  status: non_reproducible
+  reason: historical logs lack exact provider/model snapshot/access_date/frozen decoding

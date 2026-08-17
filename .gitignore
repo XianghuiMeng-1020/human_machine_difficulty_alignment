@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets / local env ---
+.env
+.env.*
+*.key
+*_ak
+*_key
+
+# --- Large / generated artifacts (not tracked in this reproducibility repo) ---
+# Raw datasets (Eedi, RACE) — see README "Data" section for download links
+data/
+race_prepared/
+LLM_out/
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+models/
+race_trainedmodels*/
+race_bert_models_trainer/
+
+# Training logs / tensorboard
+*.log
+tb_logs/
+outputs/
+
+# Extended manuscript materials / audit trail (kept out of the public code release)
+revision/artifacts/
+revision/manuscript/
+revision/figures/
+revision/tables/
+audit/
+_revision_materials/
+race_datamap_audit/
+race_analysis_with_datamap_longformer/

@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+torch>=2.6.0
+transformers>=4.40
+accelerate==1.12.0
+sentencepiece
+scikit-learn
+matplotlib
+tensorboard
+tqdm
+requests
+openai
+pyyaml
+gradio
+girth
