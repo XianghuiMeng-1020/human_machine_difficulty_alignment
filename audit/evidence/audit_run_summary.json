@@ -1,0 +1,29 @@
+{
+  "generated_at_utc": "2026-08-06T02:04:08.314559+00:00",
+  "head_commit": "ref: refs/heads/audit/fode-experiments-20260806",
+  "n_inventory_files": 160,
+  "reconcile_claim_checks": {
+    "n_val_4887": true,
+    "middle_1436": true,
+    "high_3451": true,
+    "unique_qid": true,
+    "region_easy_1189": true,
+    "region_ambiguous_1375": true,
+    "region_hard_1148": true,
+    "region_middle_1175": true,
+    "consensus_4870": true,
+    "llm_acc_consensus_near_0.954": true,
+    "encoder_acc_near_0.741": true
+  },
+  "missing_provenance_fields": [
+    "llm_exact_model_id",
+    "llm_provider",
+    "llm_access_date",
+    "llm_raw_response",
+    "retry_reason",
+    "backend_vote",
+    "epoch",
+    "encoder_model",
+    "seed"
+  ]
+}

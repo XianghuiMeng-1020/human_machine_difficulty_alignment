@@ -1,0 +1,4 @@
+llm_run_id,n,parse_success_rate,accuracy_parsed,retry_rate
+llm_deepseek_frozen_v1,4887,0.9993861264579497,0.9377559377559378,0.0
+llm_doubao_frozen_v1,4887,1.0,0.9627583384489462,0.0002046245140167792
+llm_gpt_frozen_v1,4887,1.0,0.9310415387763454,0.0

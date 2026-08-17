@@ -1,0 +1,85 @@
+{
+  "raw_files": {
+    "data\\RACE\\train_mid.jsonl": {
+      "sha256": "82493615e496c85a99b981795d71ecbe7b009f9d451cc817e6dd5ce928cd728d",
+      "bytes": 11604958,
+      "mtime": 1764901156.0,
+      "n_questions": 25421
+    },
+    "data\\RACE\\train_high.jsonl": {
+      "sha256": "5a1d23eafcf5f3ce1be2d0d43c38fec345e9f133c8ae138175c329dfdda5e665",
+      "bytes": 48913593,
+      "mtime": 1764901156.0,
+      "n_questions": 62445
+    },
+    "data\\RACE\\dev_mid.jsonl": {
+      "sha256": "8198d7efbbe79a228e60b216b011931cddf45148f2408d1efcdd39462f7ccf72",
+      "bytes": 662205,
+      "mtime": 1764901156.0,
+      "n_questions": 1436
+    },
+    "data\\RACE\\dev_high.jsonl": {
+      "sha256": "2a0ea82a37321be8f159f44341fc378f6e271c8e2ed923a99f0e0f86e7515ff9",
+      "bytes": 2648062,
+      "mtime": 1764901156.0,
+      "n_questions": 3451
+    },
+    "data\\RACE\\test_mid.jsonl": {
+      "sha256": "50a43fac57ce50448ce753eb8d689005471ecfd7e8360f6241633637401b7cb0",
+      "bytes": 664778,
+      "mtime": 1764901156.0,
+      "n_questions": 1436
+    },
+    "data\\RACE\\test_high.jsonl": {
+      "sha256": "03986151c4778180fd375d5bfd2fabf774c40845fe294cadffe1e9b88886df72",
+      "bytes": 2704872,
+      "mtime": 1764901156.0,
+      "n_questions": 3498
+    }
+  },
+  "counts_all_rows": {
+    "train": {
+      "MIDDLE": 25421,
+      "HIGH": 62445
+    },
+    "dev": {
+      "MIDDLE": 1436,
+      "HIGH": 3451
+    },
+    "test": {
+      "MIDDLE": 1436,
+      "HIGH": 3498
+    }
+  },
+  "counts_valid_only": {
+    "train": {
+      "MIDDLE": 25421,
+      "HIGH": 62445
+    },
+    "dev": {
+      "MIDDLE": 1436,
+      "HIGH": 3451
+    },
+    "test": {
+      "MIDDLE": 1436,
+      "HIGH": 3498
+    }
+  },
+  "totals_by_split": {
+    "train": 87866,
+    "dev": 4887,
+    "test": 4934
+  },
+  "dev_total": 4887,
+  "dev_middle": 1436,
+  "dev_high": 3451,
+  "n_duplicate_ids": 0,
+  "n_issues": 0,
+  "issues_head": [],
+  "official_dev_claim_target": {
+    "n": 4887,
+    "middle": 1436,
+    "high": 3451
+  },
+  "matches_official_dev_claim": true
+}

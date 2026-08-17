@@ -1,0 +1,10 @@
+{
+  "source": "outputs/diagnostics/region_threshold_robustness.csv",
+  "source_sha256": "1b4a485a22ed89bba30d241937bae451e0cc0b4984699a922349eb8fc35dbfc5",
+  "output_sha256": "844284a5318be518c2f9ca2df5b1a48e8ee58a7b92f25924bbb29f90be33d134",
+  "filter": "20/80 25/75 33/67 x 3 seeds",
+  "denominator": null,
+  "n_rows": 9,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from region_threshold_robustness.csv",
+  "generated_utc": "2026-08-17T16:15:36.461482+00:00"
+}

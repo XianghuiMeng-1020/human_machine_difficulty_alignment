@@ -1,0 +1,10 @@
+{
+  "source": "outputs/diagnostics/subset_flow.csv",
+  "source_sha256": "cb13e4034c3f1a135393ceb2fd8999d3544f8d0532e8110dd353a315721b8717",
+  "output_sha256": "cb13e4034c3f1a135393ceb2fd8999d3544f8d0532e8110dd353a315721b8717",
+  "filter": "join flow",
+  "denominator": null,
+  "n_rows": 6,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from subset_flow.csv",
+  "generated_utc": "2026-08-17T16:15:36.466482+00:00"
+}

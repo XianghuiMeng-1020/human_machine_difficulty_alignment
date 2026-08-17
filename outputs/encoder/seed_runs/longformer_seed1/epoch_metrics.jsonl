@@ -1,0 +1,4 @@
+{"epoch": 1, "val_accuracy": 0.6977695822715759}
+{"epoch": 2, "val_accuracy": 0.727030873298645}
+{"epoch": 3, "val_accuracy": 0.7372621297836304}
+{"epoch": 4, "val_accuracy": 0.7415592670440674}

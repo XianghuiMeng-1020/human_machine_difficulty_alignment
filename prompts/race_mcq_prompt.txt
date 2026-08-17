@@ -1,0 +1,15 @@
+Read the passage and answer the multiple-choice question.
+Return exactly one letter: A, B, C, or D. No explanation.
+
+Passage:
+{{passage}}
+
+Question:
+{{question}}
+
+A. {{option_a}}
+B. {{option_b}}
+C. {{option_c}}
+D. {{option_d}}
+
+Answer:

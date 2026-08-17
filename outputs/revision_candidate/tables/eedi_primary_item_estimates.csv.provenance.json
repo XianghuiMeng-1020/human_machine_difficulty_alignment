@@ -1,0 +1,10 @@
+{
+  "source": "outputs/eedi/eedi_primary_item_estimates.csv",
+  "source_sha256": "e5b41ff0c9c744761029c0a6fd2d9edf5b1ae9ec680a18e19e988c71cb3cc7b6",
+  "output_sha256": "308a2651d4ebb05992268f90817827024a74260b42dd81eddb5fba3d5c2fcd1a",
+  "filter": "n>=50 primary",
+  "denominator": null,
+  "n_rows": 27613,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from eedi_primary_item_estimates.csv",
+  "generated_utc": "2026-08-17T16:15:36.444283+00:00"
+}

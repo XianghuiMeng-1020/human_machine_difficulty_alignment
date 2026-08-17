@@ -1,0 +1,15 @@
+{
+  "model_name": "allenai/longformer-base-4096",
+  "seed": 2,
+  "val_accuracy": 0.7372621297836304,
+  "best_val_accuracy": 0.7376713752746582,
+  "epochs": 4,
+  "max_len": 1024,
+  "article_words": 400,
+  "lr": 2e-05,
+  "batch_size": 8,
+  "grad_accum": 2,
+  "trainer": "custom_pytorch_multiple_choice",
+  "construct": "held-out confidence/generalization dynamics (not original Dataset Cartography training dynamics)",
+  "finished_at": "2026-08-14T17:31:31"
+}

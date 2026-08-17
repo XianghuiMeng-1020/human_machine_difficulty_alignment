@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-08-15T15:55:15.530637+00:00",
+  "race_items_n": 4887,
+  "integrated_n": 4887,
+  "vote_source": "frozen_v1_two_of_three",
+  "region_source": "majority of official Longformer seeds 0/1/2",
+  "assertions": {
+    "race_items_unique": true,
+    "assert_4887": true,
+    "assert_m_h": true,
+    "integrated_equals_items": true,
+    "no_duplicate_integrated": true,
+    "unmatched_region_zero": true,
+    "consensus_plus_nocon_equals_llm_votes": true
+  },
+  "all_assertions_pass": true,
+  "pass": true,
+  "g5_requires_frozen_rerun": false
+}

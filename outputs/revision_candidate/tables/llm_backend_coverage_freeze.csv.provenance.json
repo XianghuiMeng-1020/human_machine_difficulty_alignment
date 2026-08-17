@@ -1,0 +1,10 @@
+{
+  "source": "outputs/llm/backend_coverage_freeze.csv",
+  "source_sha256": "6e515b27132e7dc4e5ceb328d4b5144321065d0961eaa09b0a7dc8aabf896907",
+  "output_sha256": "6e515b27132e7dc4e5ceb328d4b5144321065d0961eaa09b0a7dc8aabf896907",
+  "filter": "honest parse coverage",
+  "denominator": null,
+  "n_rows": 3,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from backend_coverage_freeze.csv",
+  "generated_utc": "2026-08-17T16:15:36.457481+00:00"
+}

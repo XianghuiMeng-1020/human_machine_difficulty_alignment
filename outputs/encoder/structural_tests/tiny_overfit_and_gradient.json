@@ -1,0 +1,9 @@
+{
+  "n": 64,
+  "final_train_accuracy": 1.0,
+  "pass_ge_0.95": true,
+  "one_batch_loss": 1.4373588562011719,
+  "grad_norm": 5.4565604768042535,
+  "n_tensors_with_nonzero_grad": 201,
+  "device": "cuda"
+}

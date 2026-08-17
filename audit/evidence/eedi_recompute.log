@@ -1,0 +1,5 @@
+UTC 2026-08-06T02:35:18.313806+00:00
+zip sha256=c7f01672360f1adeb3cf9507d72455d7be035bf897e4a167293e8938049800e1 bytes=656787242
+merged attempts=17250577 questions=27613 students=118971
+legacy count match=True vc={'Human Mid': 19460, 'Human Easy': 6574, 'Human Hard': 1579}
+legacy derived CSV exact attempt/correct match=True

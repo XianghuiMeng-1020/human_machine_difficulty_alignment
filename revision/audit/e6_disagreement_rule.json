@@ -1,0 +1,7 @@
+{
+  "rule": "disagreement_score additive components as in e6_content_audit.disagreement_score",
+  "high_arm": "sample from highest scores",
+  "low_arm": "sample from score==0 when available",
+  "n_per_arm": 30,
+  "seed": 42
+}

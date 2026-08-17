@@ -1,0 +1,16 @@
+{
+  "flaw_codes": [
+    "ambiguous_key",
+    "flawed_distractors",
+    "evidence_not_locatable_in_passage",
+    "multiple_plausible_answers",
+    "other_item_flaw",
+    "no_flaw"
+  ],
+  "procedure": [
+    "Two or more raters independently code each item blind to audit_arm",
+    "Primary outcome: any_flaw = 1 if any flaw code except no_flaw",
+    "Compare flaw prevalence high vs low (Fisher exact / chi-square)",
+    "Report Cohen kappa among raters on any_flaw"
+  ]
+}

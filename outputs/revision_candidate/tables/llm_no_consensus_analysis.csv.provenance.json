@@ -1,0 +1,10 @@
+{
+  "source": "outputs/llm/no_consensus_analysis.csv",
+  "source_sha256": "79eeb70da3c5b5a75e0e92dc0748d7ecf82bdbfaa7a41f97ee9d20d20074408d",
+  "output_sha256": "b1545de81508060269f9559decb53080610a16c87406a3b77212d95ee40e4767",
+  "filter": "frozen protocol",
+  "denominator": null,
+  "n_rows": 7,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from no_consensus_analysis.csv",
+  "generated_utc": "2026-08-17T16:15:36.463485+00:00"
+}

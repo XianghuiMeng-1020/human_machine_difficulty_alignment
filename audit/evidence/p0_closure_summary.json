@@ -1,0 +1,31 @@
+{
+  "commit": "9a9a334bffadc648c95b008b581a24948d716c62",
+  "verdict": "READY FOR MANUSCRIPT REVISION",
+  "gates": {
+    "G0": "PASS",
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "PASS",
+    "G4": "PASS",
+    "G5": "PASS",
+    "G6": "PASS",
+    "G7": "PASS",
+    "G8": "PASS",
+    "G9": "PASS"
+  },
+  "blockers": [],
+  "headlines": [
+    "EeDi Route A: official train_task_1_2 + train_task_3_4 recover 27613 / 6574 / 19460 / 1579",
+    "RACE official val n=4887 bands={'HIGH': 3451, 'MIDDLE': 1436}",
+    "Encoder accuracy (integrated table)=0.740741",
+    "Longformer multi-seed val acc mean=0.7407 sd=0.0032 min=0.7373 max=0.7434",
+    "G6 band\u00d7region \u03c7\u00b2=131.776 p=2.2407964312210237e-28 V=0.164",
+    "G6 LLM-incorrect\u00d7region \u03c7\u00b2=282.345 p=6.582008365978675e-61 V=0.241",
+    "G8 encoder MIDDLE>HIGH=True llm MIDDLE>HIGH=True acc={'HIGH': 0.7218197623877137, 'MIDDLE': 0.7862116991643454}",
+    "DeepSeek unique=4887 parse_ok=4884/4887; GPT unique=4887 parse_ok=4887/4887; Doubao unique=4887 parse_ok=4887/4887",
+    "API logged rows=20723 (DeepSeek 4887+GPT 4887+Doubao 10949); do not report retry_rate as the full call count",
+    "Frozen LLM consensus=4873 no_consensus=14 2vote_cons=3 acc_cons=0.9536219987687257 acc_uncond=0.950890116635973",
+    "Bridge-RACE and E6: NOT USABLE FOR THE REVISION (ethics/authorization undocumented); withhold human-rater claims"
+  ],
+  "report": "audit/09_p0_closure_report.md"
+}

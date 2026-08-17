@@ -1,0 +1,10 @@
+{
+  "source": "outputs/encoder/seed_g6_g8.csv",
+  "source_sha256": "312abb85f4be113b19a8b6ec8be26f8153793a9694a5f8f82b44662e7cf2ffcb",
+  "output_sha256": "7cdd9568775e9035c4511be03dc9dd7b0ae132c94fa7c2cf1c705aa28a920110",
+  "filter": "per-seed G6/G8",
+  "denominator": null,
+  "n_rows": 3,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from seed_g6_g8.csv",
+  "generated_utc": "2026-08-17T16:15:36.453482+00:00"
+}

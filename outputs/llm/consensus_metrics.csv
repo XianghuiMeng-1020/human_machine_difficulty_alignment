@@ -1,0 +1,2 @@
+n_consensus,n_no_consensus,n_3vote,n_2vote_consensus,n_2vote_no_consensus,n_1vote,n_0vote,acc_consensus_conditioned,acc_unconditional_nocon_incorrect,three_way_full_agreement
+4873,14,4884,3,0,0,0,0.9536219987687257,0.950890116635973,4870

@@ -1,0 +1,8 @@
+{
+  "checkpoint": "revision/artifacts/encoder_competitive/allenai_longformer-base-4096/model_epoch4.pt",
+  "checkpoint_sha256": "85e1fb027fd09a07d7c0ca208efa49fb5408c4f86fd50538201435810c1584ae",
+  "run_meta_val_accuracy": 0.7409453392028809,
+  "integrated_enc_accuracy": 0.7409453652547575,
+  "abs_diff": 2.605187665594144e-08,
+  "match_tol_1e-6": true
+}

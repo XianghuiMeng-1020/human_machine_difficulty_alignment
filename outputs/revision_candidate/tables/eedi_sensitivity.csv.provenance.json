@@ -1,0 +1,10 @@
+{
+  "source": "outputs/eedi/eedi_sensitivity.csv",
+  "source_sha256": "bab4f264906384c51ec5c46a9108d62075112b08a7ec89971ac64d0306b4d15b",
+  "output_sha256": "bab4f264906384c51ec5c46a9108d62075112b08a7ec89971ac64d0306b4d15b",
+  "filter": "threshold/cutoff sweep",
+  "denominator": null,
+  "n_rows": 15,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from eedi_sensitivity.csv",
+  "generated_utc": "2026-08-17T16:15:36.446482+00:00"
+}

@@ -1,0 +1,6 @@
+a,b,n,agreement
+region_seed0,region_seed1,4887,0.6318804992838142
+region_seed0,region_seed2,4887,0.6259463883773276
+region_seed1,region_seed2,4887,0.6263556374053612
+majority,legacy_datamap_region,4887,0.6582770615919787
+seed0,seed1_and_seed2_all_equal,4887,0.467976263556374

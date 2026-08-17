@@ -1,0 +1,106 @@
+{
+  "bridge_responses": {
+    "path": "revision/bridge/bridge_race_responses.csv",
+    "exists": true,
+    "bytes": 530525,
+    "mtime_utc": "2026-07-27T03:25:42+00:00",
+    "sha256": "ca1eb89df522b965a170e7e252031a699e7b4c3dfa7cd9f40860db593229e28a"
+  },
+  "bridge_items": {
+    "path": "revision/bridge/bridge_race_items.csv",
+    "exists": true,
+    "bytes": 506908,
+    "mtime_utc": "2026-07-27T03:31:12.359960+00:00",
+    "sha256": "079605ee60c2ac22a9228c69faabeda030fc983aeae6c0ba50d5c4401ea8e68d"
+  },
+  "bridge_n_responses": 9600,
+  "bridge_n_items": 320,
+  "bridge_n_annotators": 200,
+  "bridge_attempts_per_item": {
+    "count": 320.0,
+    "mean": 30.0,
+    "std": 0.0,
+    "min": 30.0,
+    "25%": 30.0,
+    "50%": 30.0,
+    "75%": 30.0,
+    "max": 30.0
+  },
+  "bridge_mean_correct": 0.4153125,
+  "e6_ratings": {
+    "path": "revision/audit/e6_ratings.csv",
+    "exists": true,
+    "bytes": 5070,
+    "mtime_utc": "2026-07-27T03:24:54+00:00",
+    "sha256": "740e4383de9b978460b22830c0260a15dbebf9bb3aabcceddd29800497957bdf"
+  },
+  "e6_n_rows": 120,
+  "e6_raters": [
+    "R1",
+    "R2"
+  ],
+  "e6_arm_meta": {
+    "path": "revision/audit/e6_arm_key_HIDDEN.csv",
+    "exists": true,
+    "bytes": 3909,
+    "mtime_utc": "2026-07-27T03:31:11.615760+00:00",
+    "sha256": "032363b7ca89d5ebf0ffea4bd73bb07c6b429a8adfb9c80a491567b8608609ce"
+  },
+  "e6_arm_counts": {},
+  "eedi_raw": {
+    "path": "data/eedi/train_data/train_task_3_4.csv",
+    "exists": true,
+    "bytes": 31731601,
+    "mtime_utc": "2025-12-05T02:19:14+00:00",
+    "sha256": "8bdbe55a310641f9e59caffbff2eac85da0b2f6c6b2bb99fa69922296f52a4e1"
+  },
+  "eedi_n_attempts": 1382727,
+  "eedi_n_students": 4918,
+  "eedi_n_questions": 948,
+  "eedi_attempts_per_question": {
+    "min": 4,
+    "p25": 320.75,
+    "median": 1684.0,
+    "p90": 2646.9,
+    "p95": 2828.25,
+    "max": 2966
+  },
+  "eedi_threshold_sweep": [
+    {
+      "min_attempts": 5,
+      "n_questions": 933,
+      "n_easy": 32,
+      "n_mid": 634,
+      "n_hard": 267
+    },
+    {
+      "min_attempts": 10,
+      "n_questions": 915,
+      "n_easy": 30,
+      "n_mid": 622,
+      "n_hard": 263
+    },
+    {
+      "min_attempts": 20,
+      "n_questions": 900,
+      "n_easy": 30,
+      "n_mid": 612,
+      "n_hard": 258
+    },
+    {
+      "min_attempts": 50,
+      "n_questions": 900,
+      "n_easy": 30,
+      "n_mid": 612,
+      "n_hard": 258
+    },
+    {
+      "min_attempts": 100,
+      "n_questions": 822,
+      "n_easy": 29,
+      "n_mid": 576,
+      "n_hard": 217
+    }
+  ],
+  "preregistration_filename_hits": []
+}

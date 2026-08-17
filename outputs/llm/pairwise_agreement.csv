@@ -1,0 +1,4 @@
+backend_a,backend_b,n_paired,agreement_rate
+llm_deepseek_frozen_v1,llm_doubao_frozen_v1,4884,0.9561834561834562
+llm_deepseek_frozen_v1,llm_gpt_frozen_v1,4884,0.954954954954955
+llm_doubao_frozen_v1,llm_gpt_frozen_v1,4887,0.9537548598322079

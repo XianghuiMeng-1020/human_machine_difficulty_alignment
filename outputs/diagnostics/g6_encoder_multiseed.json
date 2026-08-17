@@ -1,0 +1,36 @@
+{
+  "source": "majority region across official Longformer seeds 0/1/2",
+  "n": 4887,
+  "band_x_region_chi2": 131.77562870417012,
+  "band_x_region_p": 2.2407964312210237e-28,
+  "band_x_region_dof": 3,
+  "band_x_region_cramers_v": 0.1642087816861399,
+  "three_seed_region_agreement": 0.46797626355637406,
+  "majority_vs_legacy_region": 0.6582770615919787,
+  "per_seed": [
+    {
+      "seed": 0,
+      "val_acc": 0.7434008594229589,
+      "band_x_region_cramers_v": 0.16321690843826508,
+      "encoder_acc_MIDDLE": 0.7903899721448467,
+      "encoder_acc_HIGH": 0.7238481599536366,
+      "middle_gt_high": true
+    },
+    {
+      "seed": 1,
+      "val_acc": 0.7415592387968079,
+      "band_x_region_cramers_v": 0.15027692637709747,
+      "encoder_acc_MIDDLE": 0.7848189415041783,
+      "encoder_acc_HIGH": 0.7235583888727904,
+      "middle_gt_high": true
+    },
+    {
+      "seed": 2,
+      "val_acc": 0.7372621240024555,
+      "band_x_region_cramers_v": 0.14595511984851806,
+      "encoder_acc_MIDDLE": 0.7834261838440112,
+      "encoder_acc_HIGH": 0.718052738336714,
+      "middle_gt_high": true
+    }
+  ]
+}

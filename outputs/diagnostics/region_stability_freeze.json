@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-08-17T16:14:23.077221+00:00",
+  "verified_3seed_exact_agreement": 0.46797626355637406,
+  "verified_pairwise": {
+    "seed0_1": 0.6318804992838142,
+    "seed0_2": 0.6259463883773276,
+    "seed1_2": 0.6263556374053612
+  },
+  "verified_bigbird_vs_longformer_switch": 0.5334561080417434,
+  "matches_claimed_0_468": true,
+  "matches_claimed_pairwise_0_63": true,
+  "matches_claimed_bb_switch_0_5335": true,
+  "hierarchy": {
+    "PRIMARY": "continuous held-out confidence/generalization-dynamics (mean_prob, std_prob, last_correct)",
+    "SECONDARY": "discrete regions \u2014 analysis labels only, not intrinsic item-difficulty ground truth"
+  },
+  "robustness_middle_gt_high_all_cells": true,
+  "robustness_band_region_v_min": 0.14595511984851806,
+  "robustness_band_region_v_max": 0.175359989978491,
+  "continuous_by_seed": [
+    {
+      "seed": 0,
+      "pointbiserial_HIGH_vs_mean_prob": -0.09368446057441936,
+      "mean_prob_MIDDLE": 0.7304612768178571,
+      "mean_prob_HIGH": 0.6619272177010002,
+      "acc_MIDDLE": 0.7903899721448467,
+      "acc_HIGH": 0.7238481599536366
+    },
+    {
+      "seed": 1,
+      "pointbiserial_HIGH_vs_mean_prob": -0.09028873870570024,
+      "mean_prob_MIDDLE": 0.7199293842864464,
+      "mean_prob_HIGH": 0.654345635478422,
+      "acc_MIDDLE": 0.7848189415041783,
+      "acc_HIGH": 0.7235583888727904
+    },
+    {
+      "seed": 2,
+      "pointbiserial_HIGH_vs_mean_prob": -0.09165097013711562,
+      "mean_prob_MIDDLE": 0.7195607598828134,
+      "mean_prob_HIGH": 0.6528671037208886,
+      "acc_MIDDLE": 0.7834261838440112,
+      "acc_HIGH": 0.718052738336714
+    }
+  ],
+  "recommended_manuscript_language": "Do not treat discrete cartography-style regions as intrinsic difficulty. Lead with continuous held-out dynamics; report discrete regions as a secondary, seed-sensitive partition."
+}

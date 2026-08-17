@@ -1,0 +1,146 @@
+{
+  "claims": {
+    "race_total": 4887,
+    "race_bands": {
+      "HIGH": 3451,
+      "MIDDLE": 1436
+    },
+    "encoder_accuracy": 0.7407407407407407
+  },
+  "assertions": {
+    "race_total_equals_4887": true,
+    "middle_plus_high": true
+  },
+  "staged": [
+    {
+      "source": "data/processed/race_analysis_integrated.parquet",
+      "source_sha256": "6d7bdb2c0300715d8bf4ddab2ccc27bf23ac47c93d23b1e34e18a7d10869a359",
+      "output_sha256": "ec4879d42f71342d22dfd932bd276d58acbf5d99d2b5756c9b0413703d321057",
+      "filter": "official RACE val universe",
+      "denominator": 4887,
+      "n_rows": 4887,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from race_analysis_integrated.parquet",
+      "generated_utc": "2026-08-17T16:15:36.268521+00:00"
+    },
+    {
+      "source": "outputs/eedi/eedi_primary_item_estimates.csv",
+      "source_sha256": "e5b41ff0c9c744761029c0a6fd2d9edf5b1ae9ec680a18e19e988c71cb3cc7b6",
+      "output_sha256": "308a2651d4ebb05992268f90817827024a74260b42dd81eddb5fba3d5c2fcd1a",
+      "filter": "n>=50 primary",
+      "denominator": null,
+      "n_rows": 27613,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from eedi_primary_item_estimates.csv",
+      "generated_utc": "2026-08-17T16:15:36.444283+00:00"
+    },
+    {
+      "source": "outputs/eedi/eedi_sensitivity.csv",
+      "source_sha256": "bab4f264906384c51ec5c46a9108d62075112b08a7ec89971ac64d0306b4d15b",
+      "output_sha256": "bab4f264906384c51ec5c46a9108d62075112b08a7ec89971ac64d0306b4d15b",
+      "filter": "threshold/cutoff sweep",
+      "denominator": null,
+      "n_rows": 15,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from eedi_sensitivity.csv",
+      "generated_utc": "2026-08-17T16:15:36.446482+00:00"
+    },
+    {
+      "source": "outputs/diagnostics/g6_band_x_region.csv",
+      "source_sha256": "78563bb3022f8eaad294cdab54878aab4685c3d454b473bfc2a77c8af832aa63",
+      "output_sha256": "78563bb3022f8eaad294cdab54878aab4685c3d454b473bfc2a77c8af832aa63",
+      "filter": "full integrated",
+      "denominator": 4887,
+      "n_rows": 2,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from g6_band_x_region.csv",
+      "generated_utc": "2026-08-17T16:15:36.448483+00:00"
+    },
+    {
+      "source": "outputs/encoder/seed_summary.csv",
+      "source_sha256": "14aa90a784662ee711957cd297c5787aeb9c90c1805a45833926080f1d99494a",
+      "output_sha256": "14aa90a784662ee711957cd297c5787aeb9c90c1805a45833926080f1d99494a",
+      "filter": "primary Longformer seeds",
+      "denominator": null,
+      "n_rows": 3,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from seed_summary.csv",
+      "generated_utc": "2026-08-17T16:15:36.450484+00:00"
+    },
+    {
+      "source": "outputs/encoder/region_stability.csv",
+      "source_sha256": "c795b6d20397ee6787995cec3d2a28c012dfb726b39d4d022f0944dfe0cb6441",
+      "output_sha256": "c8aad354addd69064657f17792e35b6e55bda8c9df7284c2a817c00579b0948f",
+      "filter": "3-seed region labels",
+      "denominator": 4887,
+      "n_rows": 5,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from region_stability.csv",
+      "generated_utc": "2026-08-17T16:15:36.451482+00:00"
+    },
+    {
+      "source": "outputs/encoder/seed_g6_g8.csv",
+      "source_sha256": "312abb85f4be113b19a8b6ec8be26f8153793a9694a5f8f82b44662e7cf2ffcb",
+      "output_sha256": "7cdd9568775e9035c4511be03dc9dd7b0ae132c94fa7c2cf1c705aa28a920110",
+      "filter": "per-seed G6/G8",
+      "denominator": null,
+      "n_rows": 3,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from seed_g6_g8.csv",
+      "generated_utc": "2026-08-17T16:15:36.453482+00:00"
+    },
+    {
+      "source": "outputs/llm/consensus_metrics.csv",
+      "source_sha256": "daea4375d9fd1389bd2a5921b18c04ad104c501ab234638ca5fb96302b15c65c",
+      "output_sha256": "97d41ab8fa691165bf27512dc293900425a30b0d15484e49adfb4f7c37b4c9e2",
+      "filter": "frozen last-success",
+      "denominator": null,
+      "n_rows": 1,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from consensus_metrics.csv",
+      "generated_utc": "2026-08-17T16:15:36.455482+00:00"
+    },
+    {
+      "source": "outputs/llm/backend_coverage_freeze.csv",
+      "source_sha256": "6e515b27132e7dc4e5ceb328d4b5144321065d0961eaa09b0a7dc8aabf896907",
+      "output_sha256": "6e515b27132e7dc4e5ceb328d4b5144321065d0961eaa09b0a7dc8aabf896907",
+      "filter": "honest parse coverage",
+      "denominator": null,
+      "n_rows": 3,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from backend_coverage_freeze.csv",
+      "generated_utc": "2026-08-17T16:15:36.457481+00:00"
+    },
+    {
+      "source": "outputs/diagnostics/region_threshold_robustness.csv",
+      "source_sha256": "1b4a485a22ed89bba30d241937bae451e0cc0b4984699a922349eb8fc35dbfc5",
+      "output_sha256": "844284a5318be518c2f9ca2df5b1a48e8ee58a7b92f25924bbb29f90be33d134",
+      "filter": "20/80 25/75 33/67 x 3 seeds",
+      "denominator": null,
+      "n_rows": 9,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from region_threshold_robustness.csv",
+      "generated_utc": "2026-08-17T16:15:36.461482+00:00"
+    },
+    {
+      "source": "outputs/llm/no_consensus_analysis.csv",
+      "source_sha256": "79eeb70da3c5b5a75e0e92dc0748d7ecf82bdbfaa7a41f97ee9d20d20074408d",
+      "output_sha256": "b1545de81508060269f9559decb53080610a16c87406a3b77212d95ee40e4767",
+      "filter": "frozen protocol",
+      "denominator": null,
+      "n_rows": 7,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from no_consensus_analysis.csv",
+      "generated_utc": "2026-08-17T16:15:36.463485+00:00"
+    },
+    {
+      "source": "outputs/llm/retry_analysis.csv",
+      "source_sha256": "b71cf5babb388cb49cb898fb29d227d4045f0143e589cc0fb6b624accab59e42",
+      "output_sha256": "b71cf5babb388cb49cb898fb29d227d4045f0143e589cc0fb6b624accab59e42",
+      "filter": "frozen protocol",
+      "denominator": null,
+      "n_rows": 2,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from retry_analysis.csv",
+      "generated_utc": "2026-08-17T16:15:36.465484+00:00"
+    },
+    {
+      "source": "outputs/diagnostics/subset_flow.csv",
+      "source_sha256": "cb13e4034c3f1a135393ceb2fd8999d3544f8d0532e8110dd353a315721b8717",
+      "output_sha256": "cb13e4034c3f1a135393ceb2fd8999d3544f8d0532e8110dd353a315721b8717",
+      "filter": "join flow",
+      "denominator": null,
+      "n_rows": 6,
+      "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from subset_flow.csv",
+      "generated_utc": "2026-08-17T16:15:36.466482+00:00"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "dir_exists": true,
+  "run_metas": [
+    {
+      "path": "revision/artifacts/encoder_competitive/allenai_longformer-base-4096/run_meta.json",
+      "model_name": "allenai/longformer-base-4096",
+      "val_accuracy": 0.7409453392028809,
+      "best_val_accuracy": 0.7409453392028809,
+      "epochs": 4,
+      "max_len": 1024,
+      "article_words": 400,
+      "lr": 2e-05,
+      "trainer": "custom_pytorch_multiple_choice",
+      "finished_at": "2026-07-26T20:03:50"
+    },
+    {
+      "path": "revision/artifacts/encoder_competitive/bert-base-uncased/run_meta.json",
+      "model_name": "bert-base-uncased",
+      "val_accuracy": 0.5932064652442932,
+      "best_val_accuracy": 0.5934110879898071,
+      "epochs": 4,
+      "max_len": 320,
+      "article_words": 120,
+      "lr": 2e-05,
+      "trainer": "custom_pytorch_multiple_choice",
+      "finished_at": "2026-07-26T06:15:04"
+    },
+    {
+      "path": "revision/artifacts/encoder_competitive/google_bigbird-roberta-base/run_meta.json",
+      "model_name": "google/bigbird-roberta-base",
+      "val_accuracy": 0.6801719069480896,
+      "best_val_accuracy": 0.6801719069480896,
+      "epochs": 4,
+      "max_len": 512,
+      "article_words": 200,
+      "lr": 2e-05,
+      "trainer": "custom_pytorch_multiple_choice",
+      "finished_at": "2026-07-26T08:20:59"
+    }
+  ],
+  "scripts_mentioning_seed": [
+    "e10_expand_machine_students.py",
+    "e11_paper1_llm_vs_human_items.py",
+    "e1_encoder_cartography.py",
+    "e1_smoke_learn.py",
+    "e1_smoke_trainer_fix.py",
+    "e1_train_custom.py",
+    "e1_train_mc.py"
+  ],
+  "legacy_datamap_audit": {
+    "path": "race_datamap_audit/AUDIT_REPORT.md",
+    "exists": true,
+    "bytes": 5553,
+    "mtime_utc": "2026-03-01T11:19:04+00:00",
+    "sha256": "d93beb4a1c6d14737bc499d1f75b823d627496119eec00115570b7f273066f75"
+  }
+}

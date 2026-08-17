@@ -1,0 +1,7 @@
+train/MIDDLE: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\train_mid.jsonl exists=True n=25421 issues=0
+train/HIGH: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\train_high.jsonl exists=True n=62445 issues=0
+dev/MIDDLE: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\dev_mid.jsonl exists=True n=1436 issues=0
+dev/HIGH: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\dev_high.jsonl exists=True n=3451 issues=0
+test/MIDDLE: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\test_mid.jsonl exists=True n=1436 issues=0
+test/HIGH: path=E:\Digedu SI - DifficultyAlignment\Digedu SI - DifficultyAlignment\data\RACE\test_high.jsonl exists=True n=3498 issues=0
+total_questions=97687 unique_ids=97687 duplicate_ids=0

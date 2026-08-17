@@ -1,0 +1,145 @@
+{
+  "canonical_path": "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\revision\\artifacts\\race_val_integrated.csv",
+  "exists": true,
+  "n_rows": 4887,
+  "n_unique_qid": 4887,
+  "duplicate_qid": 0,
+  "sha256": "44fde6a9bd3cfe3c171aa97a69b4d34082051fb779f21af45674641253fa2e8d",
+  "columns": [
+    "question_id",
+    "base_id",
+    "split",
+    "designer_difficulty_str",
+    "designer_difficulty",
+    "article",
+    "question",
+    "option_a",
+    "option_b",
+    "option_c",
+    "option_d",
+    "answer_letter",
+    "label",
+    "prompt",
+    "enc_pred",
+    "enc_prob_correct_final",
+    "enc_correct",
+    "mean_prob",
+    "std_prob",
+    "frac_correct",
+    "num_epochs",
+    "datamap_region",
+    "llm_gpt4o_pred",
+    "llm_gpt4o_letter",
+    "llm_gpt4o_retried",
+    "llm_gpt4o_n_retries",
+    "llm_gpt4o_temperature",
+    "llm_doubao_pred",
+    "llm_doubao_letter",
+    "llm_doubao_retried",
+    "llm_doubao_n_retries",
+    "llm_doubao_temperature",
+    "llm_deepseek_pred",
+    "llm_deepseek_letter",
+    "llm_deepseek_retried",
+    "llm_deepseek_n_retries",
+    "llm_deepseek_temperature",
+    "llm_pred",
+    "llm_no_consensus",
+    "llm_n_backends",
+    "llm_letter",
+    "llm_correct",
+    "llm_any_retried",
+    "passage_chars",
+    "passage_approx_tokens",
+    "likely_truncated_2048"
+  ],
+  "missing_required_fields": [],
+  "missing_provenance_fields": [
+    "llm_exact_model_id",
+    "llm_provider",
+    "llm_access_date",
+    "llm_raw_response",
+    "retry_reason",
+    "backend_vote",
+    "epoch",
+    "encoder_model",
+    "seed"
+  ],
+  "band_counts": {
+    "HIGH": 3451,
+    "MIDDLE": 1436
+  },
+  "encoder": {
+    "n": 4887,
+    "accuracy": 0.7409453652547575,
+    "by_band": {
+      "HIGH": 0.7226890756302521,
+      "MIDDLE": 0.7848189415041783
+    }
+  },
+  "encoder_confusion_sum": 4887,
+  "encoder_confusion": {
+    "0": {
+      "0": 798,
+      "1": 118,
+      "2": 102,
+      "3": 99
+    },
+    "1": {
+      "0": 82,
+      "1": 936,
+      "2": 108,
+      "3": 104
+    },
+    "2": {
+      "0": 91,
+      "1": 117,
+      "2": 989,
+      "3": 125
+    },
+    "3": {
+      "0": 96,
+      "1": 120,
+      "2": 104,
+      "3": 898
+    }
+  },
+  "assert_confusion_sum_eq_n": true,
+  "region_counts": {
+    "ambiguous": 1375,
+    "easy": 1189,
+    "middle": 1175,
+    "hard": 1148
+  },
+  "region_missing": 0,
+  "llm": {
+    "n_total": 4887,
+    "n_no_consensus": 17,
+    "n_consensus": 4870,
+    "acc_consensus_only": 0.9544147843942505,
+    "acc_unconditional_nocon_as_incorrect": 0.9510947411499898,
+    "acc_gpt4o": 0.9326647564469914,
+    "n_gpt4o": 4886,
+    "acc_doubao": 0.9611213423368119,
+    "n_doubao": 4887,
+    "acc_deepseek": 0.9404542664211173,
+    "n_deepseek": 4887,
+    "retry_rate_gpt4o": 0.0,
+    "retry_rate_doubao": 0.2936361776140782,
+    "retry_rate_deepseek": 0.0,
+    "retry_rate_any": 0.2936361776140782
+  },
+  "claim_checks": {
+    "n_val_4887": true,
+    "middle_1436": true,
+    "high_3451": true,
+    "unique_qid": true,
+    "region_easy_1189": true,
+    "region_ambiguous_1375": true,
+    "region_hard_1148": true,
+    "region_middle_1175": true,
+    "consensus_4870": true,
+    "llm_acc_consensus_near_0.954": true,
+    "encoder_acc_near_0.741": true
+  }
+}

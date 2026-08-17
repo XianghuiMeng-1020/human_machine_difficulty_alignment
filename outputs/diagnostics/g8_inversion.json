@@ -1,0 +1,21 @@
+{
+  "encoder_acc_by_band": {
+    "HIGH": 0.7218197623877137,
+    "MIDDLE": 0.7862116991643454
+  },
+  "llm_consensus_acc_by_band": {
+    "HIGH": 0.9482257126236184,
+    "MIDDLE": 0.9665505226480836
+  },
+  "encoder_middle_gt_high": true,
+  "llm_middle_gt_high": true,
+  "passage_tokens_by_band": {
+    "HIGH": 437.54100260793973,
+    "MIDDLE": 259.27785515320335
+  },
+  "truncation_by_band": {
+    "HIGH": 0.0,
+    "MIDDLE": 0.0
+  },
+  "interpretation": "MIDDLE exam-source band has higher model accuracy than HIGH; HIGH passages are longer on average; truncation flag 0. Use exam-source wording, not 'harder'."
+}

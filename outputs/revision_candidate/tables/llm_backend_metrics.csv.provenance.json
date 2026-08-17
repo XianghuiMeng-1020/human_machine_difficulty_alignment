@@ -1,0 +1,10 @@
+{
+  "source": "outputs/llm/backend_metrics.csv",
+  "source_sha256": "5ae1ed2ed318471ee9e1411b75a5d57049e4b3c184fdb78cf8f762528660de29",
+  "output_sha256": "c8300243d75f3096cd8a05b5ee72d74beb56c97a2092fe05567977dbe6f47d94",
+  "filter": "frozen protocol",
+  "denominator": null,
+  "n_rows": 3,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from backend_metrics.csv",
+  "generated_utc": "2026-08-15T15:55:22.852018+00:00"
+}

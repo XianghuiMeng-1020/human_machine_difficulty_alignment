@@ -1,0 +1,10 @@
+{
+  "source": "data/processed/race_analysis_integrated.parquet",
+  "source_sha256": "6d7bdb2c0300715d8bf4ddab2ccc27bf23ac47c93d23b1e34e18a7d10869a359",
+  "output_sha256": "ec4879d42f71342d22dfd932bd276d58acbf5d99d2b5756c9b0413703d321057",
+  "filter": "official RACE val universe",
+  "denominator": 4887,
+  "n_rows": 4887,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from race_analysis_integrated.parquet",
+  "generated_utc": "2026-08-17T16:15:36.268521+00:00"
+}

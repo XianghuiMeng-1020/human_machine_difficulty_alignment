@@ -1,0 +1,10 @@
+{
+  "n": 4887,
+  "switch_rate_vs_longformer_region": 0.5334561080417434,
+  "band_x_region_cramers_v": 0.10835896886718531,
+  "acc_by_band_epoch_last": {
+    "HIGH": 0.6621269197334106,
+    "MIDDLE": 0.7235376044568245
+  },
+  "construct": "held-out confidence/generalization dynamics (not original train Cartography)"
+}

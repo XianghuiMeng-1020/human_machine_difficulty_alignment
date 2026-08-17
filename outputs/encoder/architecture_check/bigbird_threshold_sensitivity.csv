@@ -1,0 +1,4 @@
+spec,cramers_v_band_region,cramers_v_llm_incorrect_region,region_counts
+tercile,0.10835896886718531,0.15027589097374522,"{""ambiguous"": 1613, ""hard"": 1266, ""middle"": 1205, ""easy"": 803}"
+quartile,0.10320807626501609,0.15610027042580712,"{""middle"": 1880, ""ambiguous"": 1222, ""hard"": 1143, ""easy"": 642}"
+p40_60,0.09610492418028561,0.1500418716684222,"{""ambiguous"": 1955, ""hard"": 1197, ""easy"": 934, ""middle"": 801}"

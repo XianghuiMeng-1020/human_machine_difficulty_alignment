@@ -1,0 +1,61 @@
+item_order,question_id,rater_id,ambiguous_key,flawed_distractors,evidence_not_locatable_in_passage,multiple_plausible_answers,other_item_flaw,no_flaw,notes
+1,middle6374.txt_q1,R2,0,0,0,1,0,0,文证不足
+2,middle4032.txt_q0,R2,0,0,0,0,1,0,
+3,high11521.txt_q4,R2,0,0,0,0,0,1,
+4,middle435.txt_q0,R2,0,0,0,0,0,1,
+5,high10154.txt_q2,R2,0,0,0,0,0,1,
+6,high19218.txt_q1,R2,0,0,0,0,0,1,ok
+7,high22615.txt_q1,R2,1,0,0,0,0,0,key not unique
+8,high14500.txt_q0,R2,0,0,0,0,0,1,
+9,middle7443.txt_q1,R2,1,0,0,0,0,0,文证不足
+10,high24267.txt_q1,R2,0,0,0,0,0,1,
+11,middle4527.txt_q1,R2,0,0,0,0,0,1,ok
+12,middle2473.txt_q1,R2,0,0,0,0,0,1,
+13,middle4988.txt_q3,R2,1,1,0,0,0,0,evidence weak in passage
+14,high9625.txt_q1,R2,0,0,0,0,0,1,
+15,middle7284.txt_q1,R2,0,0,0,0,0,1,
+16,middle3775.txt_q2,R2,1,0,0,1,0,0,two options fit
+17,middle6261.txt_q2,R2,0,0,0,1,0,0,选项接近
+18,high18392.txt_q0,R2,1,1,0,0,0,0,
+19,middle641.txt_q0,R2,0,0,0,0,0,1,
+20,middle4287.txt_q4,R2,0,0,0,1,0,0,
+21,middle1132.txt_q1,R2,0,0,0,0,0,1,
+22,middle364.txt_q2,R2,0,1,1,0,0,0,key not unique
+23,middle487.txt_q1,R2,0,0,0,0,0,1,clear
+24,middle2612.txt_q0,R2,0,0,0,0,0,1,clear
+25,middle6875.txt_q0,R2,0,1,0,0,0,0,stem vague
+26,high20820.txt_q1,R2,0,0,0,0,0,1,
+27,middle4899.txt_q3,R2,0,1,0,0,0,0,distractors overlap
+28,high18736.txt_q2,R2,0,0,0,0,0,1,clear
+29,high18210.txt_q2,R2,0,0,0,0,0,1,
+30,middle1097.txt_q4,R2,0,0,0,0,0,1,
+31,high1481.txt_q2,R2,0,0,0,1,0,0,two options fit
+32,middle1097.txt_q2,R2,0,0,0,0,0,1,
+33,middle5625.txt_q1,R2,0,0,0,1,0,0,
+34,middle2662.txt_q0,R2,0,0,0,0,0,1,clear
+35,high7780.txt_q2,R2,0,0,0,0,1,0,distractors overlap
+36,high5222.txt_q1,R2,0,0,0,0,0,1,
+37,high9737.txt_q2,R2,0,0,0,0,0,1,
+38,high3507.txt_q2,R2,1,0,0,0,0,0,key not unique
+39,high667.txt_q1,R2,0,0,0,0,0,1,ok
+40,high20202.txt_q2,R2,0,0,0,0,0,1,ok
+41,middle1957.txt_q3,R2,0,0,0,0,0,1,ok
+42,middle2507.txt_q2,R2,1,0,0,0,0,0,evidence weak in passage
+43,middle7646.txt_q1,R2,0,0,0,0,0,1,
+44,high16321.txt_q4,R2,0,0,0,0,1,0,
+45,middle2074.txt_q2,R2,0,0,0,0,0,1,
+46,middle6992.txt_q1,R2,0,0,0,0,0,1,ok
+47,high7524.txt_q1,R2,1,0,0,0,0,0,选项接近
+48,middle163.txt_q4,R2,0,0,0,1,0,0,选项接近
+49,middle8201.txt_q2,R2,0,0,0,0,0,1,
+50,middle3554.txt_q1,R2,0,0,0,0,0,1,
+51,middle1989.txt_q1,R2,0,0,0,0,0,1,
+52,middle1155.txt_q2,R2,0,0,0,0,0,1,ok
+53,high10775.txt_q0,R2,0,0,0,0,0,1,
+54,high169.txt_q3,R2,0,0,0,0,0,1,
+55,middle1155.txt_q1,R2,0,0,0,0,0,1,ok
+56,high14910.txt_q1,R2,0,0,0,0,0,1,clear
+57,middle7094.txt_q2,R2,0,1,0,0,1,0,
+58,middle2887.txt_q3,R2,0,0,0,0,1,0,选项接近
+59,middle8161.txt_q4,R2,0,0,0,0,0,1,
+60,high21364.txt_q1,R2,1,0,0,1,0,0,evidence weak in passage

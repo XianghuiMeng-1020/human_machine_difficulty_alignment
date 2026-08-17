@@ -1,0 +1,121 @@
+{
+  "generated_utc": "2026-08-17T16:14:21.957907+00:00",
+  "backends": {
+    "llm_deepseek_frozen_v1": {
+      "raw_file": {
+        "path": "outputs/llm/llm_deepseek_frozen_v1_responses.jsonl",
+        "exists": true,
+        "bytes": 1860258,
+        "mtime_utc": "2026-08-06T02:50:22.578635+00:00",
+        "sha256": "8fd8ea8e2c5029df3cf8921579fe94d702de7d4482102eb95d9c8fec10107f81"
+      },
+      "n_raw_rows": 4887,
+      "unique_items_in_log": 4887,
+      "unique_items_expected": 4887,
+      "successful_parses_last_success": 4884,
+      "successful_parses_first_success": 4884,
+      "missing_parses": 3,
+      "missing_question_ids": [
+        "middle2612.txt_q2",
+        "middle291.txt_q4",
+        "middle4542.txt_q1"
+      ],
+      "final_usable_votes": 4884,
+      "row_class_counts": {
+        "initial_success": 4884,
+        "initial_fail_unparsed": 3
+      },
+      "items_with_gt1_successful_response": 0,
+      "multi_success_all_agree": 0,
+      "multi_success_agreement_rate": null,
+      "first_vs_last_vote_changes": 0
+    },
+    "llm_gpt_frozen_v1": {
+      "raw_file": {
+        "path": "outputs/llm/llm_gpt_frozen_v1_responses.jsonl",
+        "exists": true,
+        "bytes": 1837092,
+        "mtime_utc": "2026-08-06T02:58:33.697972+00:00",
+        "sha256": "ddf13f674c004c10d65b7ed1da43370072feaa58ef85d9227a8cab237900d3c1"
+      },
+      "n_raw_rows": 4887,
+      "unique_items_in_log": 4887,
+      "unique_items_expected": 4887,
+      "successful_parses_last_success": 4887,
+      "successful_parses_first_success": 4887,
+      "missing_parses": 0,
+      "missing_question_ids": [],
+      "final_usable_votes": 4887,
+      "row_class_counts": {
+        "initial_success": 4887
+      },
+      "items_with_gt1_successful_response": 0,
+      "multi_success_all_agree": 0,
+      "multi_success_agreement_rate": null,
+      "first_vs_last_vote_changes": 0
+    },
+    "llm_doubao_frozen_v1": {
+      "raw_file": {
+        "path": "outputs/llm/llm_doubao_frozen_v1_responses.jsonl",
+        "exists": true,
+        "bytes": 4861799,
+        "mtime_utc": "2026-08-15T16:01:38.683689+00:00",
+        "sha256": "214efef8b010ce5aff60463fe45197157c053f60ee2d6d622f1ce3074bfcc95e"
+      },
+      "n_raw_rows": 10949,
+      "unique_items_in_log": 4887,
+      "unique_items_expected": 4887,
+      "successful_parses_last_success": 4887,
+      "successful_parses_first_success": 4887,
+      "missing_parses": 0,
+      "missing_question_ids": [],
+      "final_usable_votes": 4887,
+      "row_class_counts": {
+        "initial_success": 7661,
+        "account_overdue_error": 3287,
+        "same_request_retry": 1
+      },
+      "items_with_gt1_successful_response": 2775,
+      "multi_success_all_agree": 2762,
+      "multi_success_agreement_rate": 0.9953153153153154,
+      "first_vs_last_vote_changes": 13
+    }
+  },
+  "coverage_one_liner": "DeepSeek unique=4887 parse_ok=4884/4887; GPT unique=4887 parse_ok=4887/4887; Doubao unique=4887 parse_ok=4887/4887",
+  "do_not_claim_all_three_4887_valid": true,
+  "two_of_three_rule": "Consensus if at least two backends return the same A-D letter. A missing/unparsed backend is a non-vote. One vote is not consensus. Zero votes is no_consensus. Two agreeing votes (third missing) is consensus.",
+  "consensus_last_success": {
+    "n_consensus": 4873,
+    "n_no_consensus": 14,
+    "n_3vote": 4884,
+    "n_2vote_consensus": 3,
+    "n_2vote_no_consensus": 0,
+    "n_1vote": 0,
+    "n_0vote": 0,
+    "acc_consensus_conditioned": 0.9536219987687257,
+    "acc_unconditional_nocon_incorrect": 0.950890116635973,
+    "three_way_full_agreement": 4870
+  },
+  "first_vs_last_success": {
+    "consensus_or_option_changes": 6,
+    "deepseek_vote_changes": 0,
+    "gpt_vote_changes": 0,
+    "doubao_vote_changes": 13
+  },
+  "api_accounting": {
+    "deepseek_raw_rows": 4887,
+    "gpt_raw_rows": 4887,
+    "doubao_raw_rows": 10949,
+    "total_logged_api_rows": 20723,
+    "note": "Each jsonl row is one logged completion attempt (initial, same-request retry, or later recovery). This is the complete logged call count, not the backend_metrics.retry_rate field.",
+    "doubao_row_classes": {
+      "initial_success": 7661,
+      "account_overdue_error": 3287,
+      "same_request_retry": 1
+    },
+    "doubao_items_with_overdue_then_success": 2724,
+    "doubao_recovery_wave_rows_request_time_ge_20260815T1545": 1528,
+    "doubao_recovery_wave_ok": 1528,
+    "historical_563_never_parsed_at_restart": 563
+  }
+}

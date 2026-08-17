@@ -26,3 +26,45 @@ race_prepared/race_mcq_train.csv
 
 # macOS
 .DS_Store
+
+# secrets / local run creds
+.env
+.env.*
+revision/artifacts/.bytedance_ak
+revision/artifacts/.*_ak
+revision/artifacts/.*_key
+revision/logs/
+
+# Scientific-freeze: large empirical binaries stay local; SHA in audit/evidence/scientific_freeze_sha_manifest.*
+data/eedi_public_download/
+*.safetensors
+outputs/encoder/seed_runs/**/hf_model/
+outputs/encoder/seed_runs/**/train.log
+outputs/encoder/seed_runs/longformer_seed0_bs2_partial/
+_revision_materials/
+LLM_out/
+revision/artifacts/race_val_integrated.csv
+revision/artifacts/encoder_competitive/**/model_epoch*.pt
+
+# Outside scientific-freeze scope (pre-existing workspace / not P0 evidence)
+figures/
+race_analysis_with_datamap_longformer/
+race_datamap_audit/
+outputs/encoder_small.tar
+outputs/encoder/seed_runs/*.log
+outputs/encoder/seed_runs/*.err
+outputs/encoder/seed_runs/**/launch_cmd.txt
+outputs/encoder/seed_runs/watch.log
+revision/manuscript/
+revision/artifacts/
+revision/_labels_import/
+revision/efficacy/
+revision/figures/
+revision/open_ended/
+revision/protocols/
+revision/tables/
+revision/*.md
+LLM_out/
+_revision_materials/
+scripts/RACE_audit_datamap.py
+

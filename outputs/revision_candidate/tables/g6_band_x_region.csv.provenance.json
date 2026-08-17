@@ -1,0 +1,10 @@
+{
+  "source": "outputs/diagnostics/g6_band_x_region.csv",
+  "source_sha256": "78563bb3022f8eaad294cdab54878aab4685c3d454b473bfc2a77c8af832aa63",
+  "output_sha256": "78563bb3022f8eaad294cdab54878aab4685c3d454b473bfc2a77c8af832aa63",
+  "filter": "full integrated",
+  "denominator": 4887,
+  "n_rows": 2,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from g6_band_x_region.csv",
+  "generated_utc": "2026-08-17T16:15:36.448483+00:00"
+}

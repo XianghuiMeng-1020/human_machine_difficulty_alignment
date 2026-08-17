@@ -1,0 +1,12 @@
+{
+  "band_x_region_chi2": 131.77562870417012,
+  "band_x_region_p": 2.2407964312210237e-28,
+  "band_x_region_dof": 3,
+  "band_x_region_cramers_v": 0.1642087816861399,
+  "n": 4887,
+  "llm_incorrect_x_region": {
+    "chi2": 282.34529584397586,
+    "p": 6.582008365978675e-61,
+    "cramers_v": 0.24070885801886333
+  }
+}

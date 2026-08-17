@@ -1,0 +1,7 @@
+{
+  "name": "Bridge-EeDi model collection",
+  "goal": "Run encoder+3 LLM backends on EeDi items with existing student correctness buckets",
+  "human_side": "EeDi attempt-derived buckets (after E5 filters)",
+  "machine_side": "encoder region (if trained) + LLM vote",
+  "analysis": "item-level confusion matrices and Cohen kappa"
+}

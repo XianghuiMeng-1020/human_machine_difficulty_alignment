@@ -1,0 +1,126 @@
+{
+  "generated_utc": "2026-08-17T16:14:21.136738+00:00",
+  "ethics_inference": "none \u2014 only file-level facts; IRB/HREC/platform not present in repository",
+  "bridge": {
+    "raw_file": {
+      "path": "revision/bridge/bridge_race_responses.csv",
+      "exists": true,
+      "bytes": 530525,
+      "mtime_utc": "2026-07-27T03:25:42+00:00",
+      "sha256": "ca1eb89df522b965a170e7e252031a699e7b4c3dfa7cd9f40860db593229e28a"
+    },
+    "items_file": {
+      "path": "revision/bridge/bridge_race_items.csv",
+      "exists": true,
+      "bytes": 506908,
+      "mtime_utc": "2026-07-27T03:31:12.359960+00:00",
+      "sha256": "079605ee60c2ac22a9228c69faabeda030fc983aeae6c0ba50d5c4401ea8e68d"
+    },
+    "protocol_file": {
+      "path": "revision/bridge/PROTOCOL_bridge_race.json",
+      "exists": true,
+      "bytes": 488,
+      "mtime_utc": "2026-07-27T03:31:12.367964+00:00",
+      "sha256": "ff116747783f9dc8dc20405090e86297c392bb79cb5f9e5b77d2b76cdc5267c7"
+    },
+    "schema": [
+      "annotator_id",
+      "question_id",
+      "chosen_letter",
+      "timestamp",
+      "consent_version"
+    ],
+    "n_rows": 9600,
+    "n_items": 320,
+    "n_annotators": 200,
+    "attempts_per_item_min": 30,
+    "attempts_per_item_max": 30,
+    "timestamp_min": "2026-07-10 09:01:51",
+    "timestamp_max": "2026-07-27 17:35:08",
+    "consent_versions": [
+      "v2026.07.1"
+    ],
+    "recruitment_platform_in_file": null,
+    "irb_hrec_in_file": null,
+    "protocol_keys": [
+      "name",
+      "design",
+      "n_items",
+      "min_attempts_per_item",
+      "eligibility",
+      "response_format",
+      "derived_labels",
+      "analysis"
+    ],
+    "documented_in_repo": {
+      "origin": "revision/bridge/ files dated 2026-07; protocol describes stratified 320x30 design only",
+      "collection_date": "timestamps in CSV only",
+      "newly_collected_vs_preexisting": "UNDOCUMENTED in ethics sense; files live under revision/ and timestamps are 2026-07",
+      "recruitment_source_platform": "NOT FOUND in repository",
+      "consent_status": "column consent_version present; no consent form / information sheet in repo",
+      "ethics_irb_hrec": "NOT FOUND in repository (do not infer)",
+      "usable_for_revision": false,
+      "usable_reason": "cannot demonstrate recruitment platform or IRB/HREC/authorization"
+    }
+  },
+  "e6": {
+    "ratings_file": {
+      "path": "revision/audit/e6_ratings.csv",
+      "exists": true,
+      "bytes": 5070,
+      "mtime_utc": "2026-07-27T03:24:54+00:00",
+      "sha256": "740e4383de9b978460b22830c0260a15dbebf9bb3aabcceddd29800497957bdf"
+    },
+    "r1_file": {
+      "path": "revision/audit/e6_ratings_R1.csv",
+      "exists": true,
+      "bytes": 2594,
+      "mtime_utc": "2026-07-27T03:24:54+00:00",
+      "sha256": "9e7e061218f8ade2b70830176e60f2b3a5e5c4c33bb95cd215cba1832ff847e5"
+    },
+    "r2_file": {
+      "path": "revision/audit/e6_ratings_R2.csv",
+      "exists": true,
+      "bytes": 2632,
+      "mtime_utc": "2026-07-27T03:24:54+00:00",
+      "sha256": "9afdf4082eb93f4b8fad6476149bd437acee876e3f2cd44a4f597a6e62c64e76"
+    },
+    "arm_key_file": {
+      "path": "revision/audit/e6_arm_key_HIDDEN.csv",
+      "exists": true,
+      "bytes": 3909,
+      "mtime_utc": "2026-07-27T03:31:11.615760+00:00",
+      "sha256": "032363b7ca89d5ebf0ffea4bd73bb07c6b429a8adfb9c80a491567b8608609ce"
+    },
+    "rubric_file": {
+      "path": "revision/audit/e6_coding_rubric.json",
+      "exists": true,
+      "bytes": 485,
+      "mtime_utc": "2026-07-27T03:31:11.615760+00:00",
+      "sha256": "4a943fe9b2fa688ecf594de2892eebd8772bcc5a1723207743b0ba469ab4c954"
+    },
+    "schema": [
+      "item_order",
+      "question_id",
+      "rater_id",
+      "ambiguous_key",
+      "flawed_distractors",
+      "evidence_not_locatable_in_passage",
+      "multiple_plausible_answers",
+      "other_item_flaw",
+      "no_flaw",
+      "notes"
+    ],
+    "n_rows": 120,
+    "raters": [
+      "R1",
+      "R2"
+    ],
+    "n_items": 60,
+    "r1_r2_identity": "UNDOCUMENTED \u2014 labels R1/R2 only; notes mix English/Chinese; cannot classify study-team vs recruited",
+    "recruitment_source_platform": "NOT FOUND",
+    "ethics_irb_hrec": "NOT FOUND in repository (do not infer)",
+    "usable_for_revision": false,
+    "usable_reason": "human-rater identity and ethics/authorization not documented"
+  }
+}

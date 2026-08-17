@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "high20574.txt_q0",
+    "context_head": "On the first day of the sixth grade, I waited at the bus stop for the school bus. When it arrived, I got on and I noticed one little girl called Amy. She was different from everyone else on the bus. \"Don't talk to Amy,\" warned Lauren, who sat beside me. \"Or everybody will make fun of you.\" Amy had m",
+    "endings": [
+      "Amy was a tiresome girl",
+      "the author's life changed a lot",
+      "Amy was a black girl",
+      "Amy was from a special family"
+    ],
+    "label": 0,
+    "gold_letter": "A"
+  },
+  {
+    "question_id": "middle1689.txt_q3",
+    "context_head": "How can I get good grades at school? How can I finish so much homework every evening? What should I do if I'm not interested in my classes ? Who will teach us this term ? Maybe you have such questions in your mind before school starts. Well, I want to give you some good advice on these problems. Fir",
+    "endings": [
+      "themselves and their teachers",
+      "themselves and their parents",
+      "their parents and teachers",
+      "themselves and their classmates"
+    ],
+    "label": 0,
+    "gold_letter": "A"
+  },
+  {
+    "question_id": "high7451.txt_q3",
+    "context_head": "Are you single and dreaming of an exciting voyage vacation, but unsure of the next step? You're not alone! Many single travelers wonder which voyage will have the most singles on board, how they'll meet other singles, what the voyage will cost and whether they'll enjoy themselves. Our hosted singles",
+    "endings": [
+      "a guide book",
+      "an ad on newspaper",
+      "a website",
+      "a magazine"
+    ],
+    "label": 2,
+    "gold_letter": "C"
+  },
+  {
+    "question_id": "middle6187.txt_q2",
+    "context_head": "I'm a Chinese boy.My name is Li Jian.I have a brother.His name is Li Qiang.Look! This is his telephone.It's red. His telephone number is 138-5430-1234, and my telephone number is 159-5432-3456.My telephone is black. Li Qiang is Li Jian's  _",
+    "endings": [
+      "brother",
+      "sister",
+      "teacher",
+      "student"
+    ],
+    "label": 0,
+    "gold_letter": "A"
+  },
+  {
+    "question_id": "high3808.txt_q3",
+    "context_head": "When movie star Scarlett Johansson was photographed naming in Los Angeles recently, she attracted a lot of attention; for the 27-year-old actress was wearing Vibram FiveFingers, so called because they look more like gloves than shoes, with a space for each toe. Strange though they may look, these so",
+    "endings": [
+      "A travel book.",
+      "A movie website.",
+      "A sports magazine.",
+      "A science journal."
+    ],
+    "label": 2,
+    "gold_letter": "C"
+  },
+  {
+    "question_id": "high5246.txt_q2",
+    "context_head": "When the lazy days of summer arrive and the schedule is filled with swimming,camp,and family vacations,it can be a challenge to find time for learning. But kids' reading skills don't have to grow cold once school's out. Here are some ways to make reading a natural part of their summer fun: Explore y",
+    "endings": [
+      "taking away the sand on the book is very difficult",
+      "a special book is needed when you're reading on the beach",
+      "one can remove the sand on the book with a brush easily",
+      "there's no trouble reading even on the beach"
+    ],
+    "label": 3,
+    "gold_letter": "D"
+  },
+  {
+    "question_id": "high19331.txt_q2",
+    "context_head": "Ecotourism:A Different Way to Travel Are you attracted to unknown places?Do you prefer to vacation away from other tourists?Are you careful to take only memories and to leave only footprints? If you answered yes to more than one of these questions,you just might be an ecotourist. Ecotourists are peo",
+    "endings": [
+      "the Kapawi ecolodge will continue to run and manage the lodge after 2011",
+      "the Kapawi ecolodge owners are the Achuar in favor of ecotourism",
+      "the achuar people have benefited a lot by collecting money from ecotourists",
+      "the owners of Kapawi encourage tourists to appreciate the Achuar culture"
+    ],
+    "label": 3,
+    "gold_letter": "D"
+  },
+  {
+    "question_id": "high18361.txt_q2",
+    "context_head": "How much and who on your cruise should be tipped? When and how should tips be given? Generally, you should plan to tip your room steward $3.00 to $3.50 per person, per day, and plan an equal amount for your dining room waiter, and half of that for the busboy . On most ships, tip the maitre d' or din",
+    "endings": [
+      "Sometimes you must spend more money tipping waiters on cruise.",
+      "In the line Seabourn, you must tip crew members for the special service.",
+      "In some lines, you can bargain on how much to tip.",
+      "Generally speaking, maitre d' can get the most tips."
+    ],
+    "label": 1,
+    "gold_letter": "B"
+  },
+  {
+    "question_id": "high8935.txt_q4",
+    "context_head": "ChiChi weighs only 13 pounds. \"He's so tiny,I can carry him with one hand,\" says Mary Lane.\"Most people see him and think he's useless.\" But last October,ChiChi proved to be more than just a pretty face. Mary and her husband,Rick,were relaxing on the beach one afternoon while on vacation in North Ca",
+    "endings": [
+      "How ChiChi became a \"Hero Dog\".",
+      "A pet dog was saved by two women.",
+      "What is the best place to go on holiday?",
+      "The Lanes helped two strangers out of trouble."
+    ],
+    "label": 0,
+    "gold_letter": "A"
+  },
+  {
+    "question_id": "middle6682.txt_q0",
+    "context_head": "Great news! Archaeologists confirm that the tomb found in Xihu township of Yangzhou belongs to Emperor Yang of the Sui Dynasty. Do you know Emperor Yang Guang? He is considered as one of the worst tyrants who brought the Sui Dynasty to an end in Chinese history. But in fact, he started the construct",
+    "endings": [
+      "One and a half years.",
+      "Two years and a half.",
+      "Two years and eight months.",
+      "Three years and two months."
+    ],
+    "label": 3,
+    "gold_letter": "D"
+  }
+]

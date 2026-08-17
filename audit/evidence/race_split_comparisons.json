@@ -1,0 +1,31 @@
+{
+  "race_mcq_val": {
+    "exists": true,
+    "n": 4887,
+    "band_counts": {
+      "HIGH": 3451,
+      "MIDDLE": 1436
+    },
+    "n_unique_qid": 4887,
+    "sha256": "97fae40fa8b535288a8c829432b7eacc666601cb4b4df0645cfd59a04b52df4e",
+    "matches_raw_dev": true
+  },
+  "integrated": {
+    "exists": true,
+    "n": 4887,
+    "band_counts": {
+      "HIGH": 3451,
+      "MIDDLE": 1436
+    },
+    "n_unique_qid": 4887,
+    "sha256": "44fde6a9bd3cfe3c171aa97a69b4d34082051fb779f21af45674641253fa2e8d",
+    "matches_raw_dev": true
+  },
+  "manifest": {
+    "exists": true,
+    "n_val": 4887,
+    "n_middle": 1436,
+    "n_high": 3451,
+    "sha256": "eddc8a4f00f416ebb60ec86ef4271febd0a1ee7f3b4198802d2e6a8386994ca0"
+  }
+}

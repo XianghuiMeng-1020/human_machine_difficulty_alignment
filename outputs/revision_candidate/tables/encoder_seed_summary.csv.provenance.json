@@ -1,0 +1,10 @@
+{
+  "source": "outputs/encoder/seed_summary.csv",
+  "source_sha256": "14aa90a784662ee711957cd297c5787aeb9c90c1805a45833926080f1d99494a",
+  "output_sha256": "14aa90a784662ee711957cd297c5787aeb9c90c1805a45833926080f1d99494a",
+  "filter": "primary Longformer seeds",
+  "denominator": null,
+  "n_rows": 3,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from seed_summary.csv",
+  "generated_utc": "2026-08-17T16:15:36.450484+00:00"
+}

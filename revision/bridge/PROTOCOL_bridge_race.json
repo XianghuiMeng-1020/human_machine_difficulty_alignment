@@ -1,0 +1,13 @@
+{
+  "name": "Bridge-RACE human collection",
+  "design": "stratified by grade-band x datamap_region",
+  "n_items": 320,
+  "min_attempts_per_item": 30,
+  "eligibility": "English reading comprehension, age-appropriate for grade band",
+  "response_format": "single letter A-D",
+  "derived_labels": {
+    "human_correct_rate": "mean(is_correct)",
+    "human_bucket": "easy>=0.80; hard<=0.40; else mid"
+  },
+  "analysis": "item-level kappa vs designer / encoder region / LLM vote"
+}

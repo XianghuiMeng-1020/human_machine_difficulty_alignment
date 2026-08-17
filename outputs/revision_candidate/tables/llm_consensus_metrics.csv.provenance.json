@@ -1,0 +1,10 @@
+{
+  "source": "outputs/llm/consensus_metrics.csv",
+  "source_sha256": "daea4375d9fd1389bd2a5921b18c04ad104c501ab234638ca5fb96302b15c65c",
+  "output_sha256": "97d41ab8fa691165bf27512dc293900425a30b0d15484e49adfb4f7c37b4c9e2",
+  "filter": "frozen last-success",
+  "denominator": null,
+  "n_rows": 1,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from consensus_metrics.csv",
+  "generated_utc": "2026-08-17T16:15:36.455482+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "route": "A",
+  "legacy_counts_reproduced": true,
+  "n_questions": 27613,
+  "n_uncertain_boundary": 8495,
+  "eb_switch_rate": 0.01915764313910115,
+  "alpha0": 5.042111501118504,
+  "beta0": 2.501189320712901
+}

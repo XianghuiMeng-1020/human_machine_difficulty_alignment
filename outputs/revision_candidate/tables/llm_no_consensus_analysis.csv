@@ -1,0 +1,8 @@
+n_items,n_consensus,n_no_consensus,no_consensus_rate,acc_consensus_only,acc_unconditional_nocon_incorrect,scope,designer_difficulty_str,datamap_region
+4887.0,4873.0,14.0,0.0028647431962349,0.9536219987687256,0.950890116635973,overall,,
+,,,0.0037670240509997,,,by_band,HIGH,
+,,,0.0006963788300835,,,by_band,MIDDLE,
+,,,0.0014545454545454,,,by_region,,ambiguous
+,,,0.0008410428931875,,,by_region,,easy
+,,,0.0078397212543554,,,by_region,,hard
+,,,0.0017021276595744,,,by_region,,middle

@@ -1,0 +1,188 @@
+{
+  "generated_utc": "2026-08-17T16:14:24.442163+00:00",
+  "purpose": "SHA-256 manifest for empirical inputs; large binaries may be gitignored",
+  "files": [
+    {
+      "path": "data/RACE/dev_mid.jsonl",
+      "exists": true,
+      "bytes": 662205,
+      "mtime_utc": "2025-12-05T02:19:16+00:00",
+      "sha256": "8198d7efbbe79a228e60b216b011931cddf45148f2408d1efcdd39462f7ccf72"
+    },
+    {
+      "path": "data/RACE/dev_high.jsonl",
+      "exists": true,
+      "bytes": 2648062,
+      "mtime_utc": "2025-12-05T02:19:16+00:00",
+      "sha256": "2a0ea82a37321be8f159f44341fc378f6e271c8e2ed923a99f0e0f86e7515ff9"
+    },
+    {
+      "path": "data/RACE/train_mid.jsonl",
+      "exists": true,
+      "bytes": 11604958,
+      "mtime_utc": "2025-12-05T02:19:16+00:00",
+      "sha256": "82493615e496c85a99b981795d71ecbe7b009f9d451cc817e6dd5ce928cd728d"
+    },
+    {
+      "path": "data/RACE/train_high.jsonl",
+      "exists": true,
+      "bytes": 48913593,
+      "mtime_utc": "2025-12-05T02:19:16+00:00",
+      "sha256": "5a1d23eafcf5f3ce1be2d0d43c38fec345e9f133c8ae138175c329dfdda5e665"
+    },
+    {
+      "path": "data/eedi_public_download/extracted/data/train_data/train_task_1_2.csv",
+      "exists": true,
+      "bytes": 430049940,
+      "mtime_utc": "2026-08-06T02:30:17.812009+00:00",
+      "sha256": "721ebae1c5ddb3f8a4c85a437893216bbba1d8b2ca950ee0681d1f3e98ebdc0e"
+    },
+    {
+      "path": "data/eedi_public_download/extracted/data/train_data/train_task_3_4.csv",
+      "exists": true,
+      "bytes": 31731601,
+      "mtime_utc": "2026-08-06T02:30:17.910483+00:00",
+      "sha256": "8bdbe55a310641f9e59caffbff2eac85da0b2f6c6b2bb99fa69922296f52a4e1"
+    },
+    {
+      "path": "data/eedi/train_data/train_task_3_4.csv",
+      "exists": true,
+      "bytes": 31731601,
+      "mtime_utc": "2025-12-05T02:19:14+00:00",
+      "sha256": "8bdbe55a310641f9e59caffbff2eac85da0b2f6c6b2bb99fa69922296f52a4e1"
+    },
+    {
+      "path": "revision/artifacts/race_val_integrated.csv",
+      "exists": true,
+      "bytes": 18511733,
+      "mtime_utc": "2026-07-26T13:16:27.036953+00:00",
+      "sha256": "44fde6a9bd3cfe3c171aa97a69b4d34082051fb779f21af45674641253fa2e8d"
+    },
+    {
+      "path": "revision/bridge/bridge_race_responses.csv",
+      "exists": true,
+      "bytes": 530525,
+      "mtime_utc": "2026-07-27T03:25:42+00:00",
+      "sha256": "ca1eb89df522b965a170e7e252031a699e7b4c3dfa7cd9f40860db593229e28a"
+    },
+    {
+      "path": "revision/bridge/bridge_race_items.csv",
+      "exists": true,
+      "bytes": 506908,
+      "mtime_utc": "2026-07-27T03:31:12.359960+00:00",
+      "sha256": "079605ee60c2ac22a9228c69faabeda030fc983aeae6c0ba50d5c4401ea8e68d"
+    },
+    {
+      "path": "revision/audit/e6_ratings.csv",
+      "exists": true,
+      "bytes": 5070,
+      "mtime_utc": "2026-07-27T03:24:54+00:00",
+      "sha256": "740e4383de9b978460b22830c0260a15dbebf9bb3aabcceddd29800497957bdf"
+    },
+    {
+      "path": "outputs/llm/llm_deepseek_frozen_v1_responses.jsonl",
+      "exists": true,
+      "bytes": 1860258,
+      "mtime_utc": "2026-08-06T02:50:22.578635+00:00",
+      "sha256": "8fd8ea8e2c5029df3cf8921579fe94d702de7d4482102eb95d9c8fec10107f81"
+    },
+    {
+      "path": "outputs/llm/llm_gpt_frozen_v1_responses.jsonl",
+      "exists": true,
+      "bytes": 1837092,
+      "mtime_utc": "2026-08-06T02:58:33.697972+00:00",
+      "sha256": "ddf13f674c004c10d65b7ed1da43370072feaa58ef85d9227a8cab237900d3c1"
+    },
+    {
+      "path": "outputs/llm/llm_doubao_frozen_v1_responses.jsonl",
+      "exists": true,
+      "bytes": 4861799,
+      "mtime_utc": "2026-08-15T16:01:38.683689+00:00",
+      "sha256": "214efef8b010ce5aff60463fe45197157c053f60ee2d6d622f1ce3074bfcc95e"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed0/model_epoch4.pt",
+      "exists": true,
+      "bytes": 594753657,
+      "mtime_utc": "2026-08-14T18:29:39.537781+00:00",
+      "sha256": "5f581e39bfe183d052abaef35118c7507ab2c3516aa9fd2b1803122a8517a080"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed0/run_meta.json",
+      "exists": true,
+      "bytes": 457,
+      "mtime_utc": "2026-08-13T10:46:40+00:00",
+      "sha256": "0fdf441c7a80866f65553d0aac68ba17ccee37fea0a9951fe4827bd1ca28d89c"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed0/val_predictions.csv",
+      "exists": true,
+      "bytes": 153065,
+      "mtime_utc": "2026-08-13T10:43:20+00:00",
+      "sha256": "2772b2dbecb0e05a33616b82b9d21350f596dcfe6f0848b28b3ae38b31cf84a9"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed0/training_dynamics_val.csv",
+      "exists": true,
+      "bytes": 819613,
+      "mtime_utc": "2026-08-13T10:46:40+00:00",
+      "sha256": "e8c04a06f2a9420c3f58ab02ae5a480d2fe8b9ad6983642acb7ac310d41f4b74"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed1/model_epoch4.pt",
+      "exists": true,
+      "bytes": 594753657,
+      "mtime_utc": "2026-08-14T18:34:53.927701+00:00",
+      "sha256": "3da6c59bb509622c70cb8d16c6dc6aaf585f0e51016c7d3239b9b6db4b803e7e"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed1/run_meta.json",
+      "exists": true,
+      "bytes": 457,
+      "mtime_utc": "2026-08-14T02:10:26+00:00",
+      "sha256": "cb6e25bee9fa13278bcd7ecea9fd7b44620ed5f7c1e1c3b9ca0d8ca5beeb3f6b"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed1/val_predictions.csv",
+      "exists": true,
+      "bytes": 153280,
+      "mtime_utc": "2026-08-14T02:07:06+00:00",
+      "sha256": "aa8aac3ccc4ad07e740e83fb1126c1e08dc55d98507f74d5279ed559cff92b73"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed1/training_dynamics_val.csv",
+      "exists": true,
+      "bytes": 820198,
+      "mtime_utc": "2026-08-14T02:10:26+00:00",
+      "sha256": "938666c5ee6bea6f60cf31876055bc65b0f9639464a181cf59954d2b24f00afb"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed2/model_epoch4.pt",
+      "exists": true,
+      "bytes": 594753657,
+      "mtime_utc": "2026-08-14T18:39:55.935421+00:00",
+      "sha256": "6a0db2f60fe378017558417f24c96d1dffa770e1a9dc2a5174bfcc7e760c7af4"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed2/run_meta.json",
+      "exists": true,
+      "bytes": 457,
+      "mtime_utc": "2026-08-14T17:31:31+00:00",
+      "sha256": "56dc4e41322ee704387d015752990da40e927963660037acc8e2fbea474adfae"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed2/val_predictions.csv",
+      "exists": true,
+      "bytes": 154240,
+      "mtime_utc": "2026-08-14T13:38:35+00:00",
+      "sha256": "62761e2e5691b83a3587e779db63009f3507d98c30e32b239e8f6349e97b6e5f"
+    },
+    {
+      "path": "outputs/encoder/seed_runs/longformer_seed2/training_dynamics_val.csv",
+      "exists": true,
+      "bytes": 821051,
+      "mtime_utc": "2026-08-14T17:31:31+00:00",
+      "sha256": "a2a970202996352628afad401a0263d31b4a02732e725afe89a4bbfdce2eeb62"
+    }
+  ]
+}

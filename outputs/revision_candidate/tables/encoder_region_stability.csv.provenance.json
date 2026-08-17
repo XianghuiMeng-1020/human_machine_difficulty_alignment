@@ -1,0 +1,10 @@
+{
+  "source": "outputs/encoder/region_stability.csv",
+  "source_sha256": "c795b6d20397ee6787995cec3d2a28c012dfb726b39d4d022f0944dfe0cb6441",
+  "output_sha256": "c8aad354addd69064657f17792e35b6e55bda8c9df7284c2a817c00579b0948f",
+  "filter": "3-seed region labels",
+  "denominator": 4887,
+  "n_rows": 5,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from region_stability.csv",
+  "generated_utc": "2026-08-17T16:15:36.451482+00:00"
+}

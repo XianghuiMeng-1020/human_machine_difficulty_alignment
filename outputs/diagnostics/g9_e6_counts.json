@@ -1,0 +1,10 @@
+{
+  "high_flaw": 20,
+  "high_noflaw": 10,
+  "low_flaw": 9,
+  "low_noflaw": 21,
+  "fisher_or": 4.666666666666667,
+  "fisher_p": 0.009205974713368526,
+  "kappa": 0.5379146919431279,
+  "raters_human": true
+}

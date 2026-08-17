@@ -1,0 +1,10 @@
+{
+  "source": "outputs/llm/retry_analysis.csv",
+  "source_sha256": "b71cf5babb388cb49cb898fb29d227d4045f0143e589cc0fb6b624accab59e42",
+  "output_sha256": "b71cf5babb388cb49cb898fb29d227d4045f0143e589cc0fb6b624accab59e42",
+  "filter": "frozen protocol",
+  "denominator": null,
+  "n_rows": 2,
+  "command": "python scripts/p0_closure/p0_6_stage_and_report.py  # stage from retry_analysis.csv",
+  "generated_utc": "2026-08-17T16:15:36.465484+00:00"
+}

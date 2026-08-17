@@ -1,0 +1,186 @@
+{
+  "backends": {
+    "gpt4o": {
+      "dir": "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\LLM_out\\gpt4o_1124",
+      "exists": true,
+      "files": [
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_test_gpt.jsonl",
+          "exists": true,
+          "bytes": 10143649,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "09c513c6111a7248c9e8af51cbce7a0f3fc24c0f75b535942b12b6bdeec78888"
+        },
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_test_gpt_back.jsonl",
+          "exists": true,
+          "bytes": 10044900,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "375693b3dab2c58e5485130e7647402e8ffb5c30e6b39f172602997f0c7c31df"
+        },
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_val_gpt.jsonl",
+          "exists": true,
+          "bytes": 4329099,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "3736923830b3f55ae54aae75925223627c5e80764164a42a3af8dc8cffa05a77"
+        },
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_val_gpt_back.jsonl",
+          "exists": true,
+          "bytes": 4245791,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "f66209dd3f585029c16236d7d9e09a6c3998d531dcf644aa1ebd41e5d2b88698"
+        },
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_val_gpt_high_fill.jsonl",
+          "exists": true,
+          "bytes": 790371,
+          "mtime_utc": "2026-07-26T06:43:30.202051+00:00",
+          "sha256": "e4e099baf8d1b0bb145093a9caee09f6ba5d4b1cef35aa731cc37cbe408dd021"
+        },
+        {
+          "path": "LLM_out/gpt4o_1124/race_llm_prompts_val_gpt_merged.jsonl",
+          "exists": true,
+          "bytes": 2955029,
+          "mtime_utc": "2026-07-26T13:16:24.297191+00:00",
+          "sha256": "3bd255e0595858877b5bfdc0181655c0b1cade251a6e82dbd5e7f5b476a4783a"
+        }
+      ],
+      "sample_keys": [
+        "designer_difficulty",
+        "gold_answer",
+        "id",
+        "llm_label",
+        "pred_answer",
+        "prompt"
+      ],
+      "sample_n": 200,
+      "temperature_values_sample": []
+    },
+    "doubao": {
+      "dir": "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\LLM_out\\doubao_1.8",
+      "exists": true,
+      "files": [
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_test_doubao.jsonl",
+          "exists": true,
+          "bytes": 10037610,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "f2a4c40e33946de01d1a341a9cf9f5422a73cceba7308a2dd5b330038eacd25a"
+        },
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_test_doubao_back.jsonl",
+          "exists": true,
+          "bytes": 9938804,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "d1c3fd3090b7b793a279c811dd7c5cad9508e324cf488c02817f7007d2338e56"
+        },
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_val_doubao.jsonl",
+          "exists": true,
+          "bytes": 4252863,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "8e43ab33102793aab614f727dd1be1043e354787a9daf645a9de8cde78d59dfd"
+        },
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_val_doubao_back.jsonl",
+          "exists": true,
+          "bytes": 4195423,
+          "mtime_utc": "2025-12-05T02:19:14+00:00",
+          "sha256": "2c721d55524e7ca3efb515a5441e1fecdeac1fab8e7bbc87476aec5067fdaef8"
+        },
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_val_doubao_high_fill.jsonl",
+          "exists": true,
+          "bytes": 990766,
+          "mtime_utc": "2026-07-26T13:15:43.387782+00:00",
+          "sha256": "0d6ea9df055ab08f9dfffc6a01eacb69888cf0525a66faf65a0c7477aa10e509"
+        },
+        {
+          "path": "LLM_out/doubao_1.8/race_llm_prompts_val_doubao_merged.jsonl",
+          "exists": true,
+          "bytes": 992174,
+          "mtime_utc": "2026-07-26T13:16:24.927355+00:00",
+          "sha256": "759e9f9b549745cb3bde5014624e618ca6c3440957f886c1367dda6a4ff7c437"
+        }
+      ],
+      "sample_keys": [
+        "designer_difficulty",
+        "gold_answer",
+        "id",
+        "llm_label",
+        "pred_answer",
+        "prompt"
+      ],
+      "sample_n": 200,
+      "temperature_values_sample": []
+    },
+    "deepseek": {
+      "dir": "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\revision\\artifacts",
+      "exists": true,
+      "files": [
+        {
+          "path": "revision/artifacts/llm_deepseek_val.jsonl",
+          "exists": true,
+          "bytes": 10731354,
+          "mtime_utc": "2026-07-26T06:48:22.503227+00:00",
+          "sha256": "876bae7776d3701b2ad0dbf78c2881424f669e0fe2ddfafdd26c15b56d4990e8"
+        },
+        {
+          "path": "revision/artifacts/llm_deepseek_val_TODO.jsonl",
+          "exists": true,
+          "bytes": 0,
+          "mtime_utc": "2026-07-26T13:16:26.158488+00:00",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "revision/artifacts/llm_high_only_prompts.jsonl",
+          "exists": true,
+          "bytes": 7880125,
+          "mtime_utc": "2026-07-25T18:01:26.558937+00:00",
+          "sha256": "748c6c8ed2871ac406a7d27bda47897a4ac380a8ef42fc932f99c3d0c7259166"
+        },
+        {
+          "path": "revision/artifacts/llm_deepseek_val.jsonl",
+          "exists": true,
+          "bytes": 10731354,
+          "mtime_utc": "2026-07-26T06:48:22.503227+00:00",
+          "sha256": "876bae7776d3701b2ad0dbf78c2881424f669e0fe2ddfafdd26c15b56d4990e8"
+        },
+        {
+          "path": "revision/artifacts/llm_deepseek_val_TODO.jsonl",
+          "exists": true,
+          "bytes": 0,
+          "mtime_utc": "2026-07-26T13:16:26.158488+00:00",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "sample_keys": [
+        "access_date",
+        "backend",
+        "backend_target",
+        "designer_difficulty",
+        "gold_answer",
+        "llm_label",
+        "model_version",
+        "n_retries",
+        "pred_answer",
+        "prompt",
+        "question_id",
+        "temperature"
+      ],
+      "sample_n": 200,
+      "temperature_values_sample": [
+        0.1
+      ]
+    }
+  },
+  "llm_vote_val": {
+    "path": "revision/artifacts/llm_vote_val.csv",
+    "exists": true,
+    "bytes": 370698,
+    "mtime_utc": "2026-07-26T13:16:26.154288+00:00",
+    "sha256": "f51adb218e8952108707bacd94dcaeb437ddc90ce050625ace6044de79789fb5"
+  }
+}
