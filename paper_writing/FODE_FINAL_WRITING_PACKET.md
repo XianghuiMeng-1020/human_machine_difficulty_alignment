@@ -59,10 +59,13 @@ Title (LOCKED): **Who Finds It Hard? Mapping Human–Machine Alignment in Questi
 on student ability only (sigma_theta=3.0), post-hoc mean-centering for identifiability, converged
 at iteration 481 (20-iteration stability buffer, ~501-503 total), loss-plateau tolerance 1e-7,
 observed-Fisher-information item SEs (Wald-style, ignores theta uncertainty — point estimates
-recommended as primary, not the analytic CIs). EB (Beta-Binomial, moment-matched prior:
-alpha0=4.653, beta0=4.522) and raw empirical correctness are robustness estimators. All three
-estimators agree very strongly on the clean 944-item universe (Spearman IRT-EB=0.9865,
-IRT-empirical=0.9928, EB-empirical=0.9932). Full detail: `audit/evidence/rasch_method_full.md`.
+recommended as primary, not the analytic CIs). Likelihood evaluated only on observed pairs:
+possible student-item pairs = 4,918 × 944 = 4,642,592; observed = 1,377,653; unobserved =
+3,264,939; duplicate observed pairs = 0; unobserved pairs are not imputed. EB (Beta-Binomial,
+moment-matched prior: alpha0=4.653, beta0=4.522) and raw empirical correctness are robustness
+estimators. All three estimators agree very strongly on the clean 944-item universe (Spearman
+IRT-EB=0.9865, IRT-empirical=0.9928, EB-empirical=0.9932). Full detail:
+`audit/evidence/rasch_method_full.md`.
 
 ## S5. Same-item machine method (EeDi VLM solvers)
 

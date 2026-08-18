@@ -74,8 +74,15 @@ convergence.
 confirmation buffer after the plateau trigger).
 **Random seed:** 20260818 (all-responses run) / same seed for first-response-only sensitivity run
 (converged at iter 469, total 491 — negligibly different due to fewer effective observations).
-**Missing responses:** no missingness (every retained item has a full observed response column;
-students who didn't attempt an item simply contribute no term for that item-student pair).
+**Student–item observation accounting (do not write “missing responses: none”):**
+```text
+total possible student-item pairs = 4,918 × 944 = 4,642,592
+observed response pairs           = 1,377,653
+unobserved pairs                  = 3,264,939
+duplicate observed student-item pairs = 0
+```
+The Rasch likelihood is evaluated only over the 1,377,653 observed response pairs. Unobserved
+pairs are not imputed, are not treated as incorrect, and do not enter the likelihood.
 **Software:** PyTorch (custom joint-MLE implementation), device=GPU (CUDA), no library-version
 pin recorded beyond what is in `same_item_alignment/scripts/s2_human_difficulty.py`.
 **Item uncertainty:** observed-Fisher-information Wald standard errors — **diagnostic only**,
@@ -121,6 +128,21 @@ substitution, not a change of data/methodology — see `same_item_alignment/audi
 Parser: single-character letter extraction (A/B/C/D); parse_success = 100% for all three solvers
 on the full 944-item run (`solver_quality_gate.csv`), i.e. zero invalid/missing outputs after
 parsing — no invalid-output policy branch was actually exercised in the final run.
+
+**VLM execution metadata (identical for all 3 solvers unless noted; NOT RECORDED fields listed as such):**
+
+```text
+transformers version     = 5.15.0 (RunPod full-run; local pilot used 5.9.0)
+torch version            = 2.6.0+cu124
+CUDA version             = 12.4 (driver 550.127.05)
+batch size               = 1 (sequential per-item)
+image processor          = AutoProcessor.from_pretrained(checkpoint); no custom pipeline
+resize / pixel constraints = NOT RECORDED (processor defaults used, not logged)
+normalization            = NOT RECORDED (processor defaults used, not logged)
+max image size           = NOT RECORDED (not manually capped; default max_pixels not logged)
+HF revision / commit     = main; exact commit hash NOT RECORDED
+executed InternVL model  = OpenGVLab/InternVL3-8B-hf (InternVL3-2B-hf was a discarded pilot candidate only)
+```
 
 ## 6. Study A primary alignment results
 
@@ -224,7 +246,8 @@ weighting scheme = linear
 | variable | subset mean/prop | comparison mean/prop | subset SD | comparison SD | SMD |
 |---|---:|---:|---:|---:|---:|
 | empirical correctness | 0.5668 | 0.6720 | 0.1345 | 0.1608 | -0.710 |
-| EB difficulty (shrunk rate) | 0.5675 | 0.6711 | 0.1332 | 0.1532 | -0.722 |
+| EB posterior correctness (shrunk_rate) | 0.5675 | 0.6711 | 0.1332 | 0.1532 | -0.722 |
+| EB difficulty (1 − shrunk_rate) | 0.4325 | 0.3289 | 0.1332 | 0.1532 | +0.722 |
 | attempt count | 2,021.95 | 575.27 | 1,179.92 | 655.21 | **+1.516** |
 | Human Easy (empirical bucket) | 3.60% (34/944) | 24.52% (6,540/26,669) | — | — | category gap |
 | Human Mid (empirical bucket) | 86.02% (812/944) | 69.92% (18,648/26,669) | — | — | category gap |
@@ -243,7 +266,31 @@ Split counts and raw source hashes unchanged from v1 freeze (`audit/evidence/rac
 
 ## 11. Study B encoder method
 
-Longformer (`allenai/longformer-base-4096`), 3 seeds (0/1/2). Per-seed exact results:
+Longformer (`allenai/longformer-base-4096`), 3 seeds (0/1/2). Trainer:
+`scripts/revision/e1_train_mc.py` launched by `scripts/p0_closure/run_longformer_seeds_full.py`.
+
+```text
+batch size               = 8
+gradient accumulation    = 2
+effective batch size     = 16
+eval batch size          = 8
+max sequence length      = 1024
+article truncation       = first 400 whitespace-split words of the passage
+                          (`" ".join(str(article).split()[:400])`)
+optimizer                = AdamW
+learning rate            = 2e-5
+weight decay             = 0.01 (hardcoded in trainer; not serialized in run_meta.json)
+scheduler                = linear warmup, warmup_ratio=0.06 (trainer default; not in run_meta.json)
+AMP                      = yes (`--amp`; CUDA autocast + GradScaler)
+gradient checkpointing   = yes (`--grad_checkpoint`)
+checkpoint selection     = hf_model saved at best val accuracy during training;
+                           run_meta.json `val_accuracy` = LAST epoch (seed 2 last ≠ best)
+hardware                 = RunPod RTX 4090 (24 GB); cuda_memory_fraction=0.92; num_workers=4
+transformers version     = NOT RECORDED at Longformer execution time
+torch version            = NOT RECORDED at Longformer execution time
+CUDA version             = NOT RECORDED at Longformer execution time
+HF checkpoint revision   = NOT RECORDED
+```
 
 | seed | overall val accuracy | MIDDLE accuracy | HIGH accuracy | checkpoint sha256 (first 12 chars) |
 |---:|---:|---:|---:|---|

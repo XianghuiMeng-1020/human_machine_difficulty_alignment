@@ -68,11 +68,10 @@ def main():
                    f"local pilot smoke-tests, which lacked native support for InternVL3-hf / SmolVLM2 classes)")
         md.append(f"- torch version: 2.6.0+cu124 (upgraded on the pod from image default 2.4.1+cu124)")
         md.append(f"- CUDA version: 12.4 (driver 550.127.05)")
-        md.append(f"- Image preprocessing / resize rule: model-default HF image processor for each "
-                   f"checkpoint (`AutoProcessor.from_pretrained`), i.e. each model's own native "
-                   f"preprocessing config (no custom resize/crop pipeline was written); exact max-resolution "
-                   f"is governed by each processor's default `size`/`max_pixels` config, not overridden.")
-        md.append(f"- Maximum image resolution: processor default per checkpoint (not manually capped)")
+        md.append(f"- Image preprocessing / resize rule: `AutoProcessor.from_pretrained(checkpoint)` with "
+                   f"no custom resize/crop pipeline. Exact processor `size` / `max_pixels` / normalization "
+                   f"constants were NOT RECORDED at execution time (processor defaults used, not logged).")
+        md.append(f"- Maximum image size: NOT RECORDED (not manually capped; default max_pixels not logged)")
         md.append(f"- Prompt text: see `configs/prompts/mcq_prompt.txt` (identical across all 3 solvers)")
         md.append(f"- System prompt: none separate from the single user-turn prompt below")
         md.append(f"- temperature: {s['temperature']}")

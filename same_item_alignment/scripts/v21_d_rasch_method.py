@@ -98,11 +98,17 @@ def main():
                "20-iteration stability buffer; exact per-run tail values in "
                "`same_item_alignment/audit/irt_diagnostics.md`).\n")
     md.append("## Handling of missing responses\n")
-    md.append("Not applicable in the (student,item) missing-completely-at-random sense used by some IRT "
-               "packages: the model is fit directly on the SPARSE observed-response list (every row of "
-               "`train_task_3_4.csv` restricted to the 944 retained items is one observation); students "
-               "who did not attempt an item simply contribute no term for that (student,item) pair. There "
-               "is no imputation and no assumption that a non-attempt equals an incorrect response.\n")
+    md.append("Do **not** write “missing responses: none.” The student–item matrix is sparse.\n")
+    md.append("```text\n")
+    md.append("total possible student-item pairs = 4,918 × 944 = 4,642,592\n")
+    md.append("observed response pairs           = 1,377,653\n")
+    md.append("unobserved pairs                  = 4,642,592 − 1,377,653 = 3,264,939\n")
+    md.append("duplicate observed student-item pairs = 0\n")
+    md.append("```\n")
+    md.append("The Rasch likelihood is evaluated **only over the 1,377,653 observed response pairs**. "
+               "Unobserved pairs are not imputed, are not treated as incorrect, and do not enter the "
+               "likelihood. Students who did not attempt an item contribute no term for that "
+               "(student, item) pair.\n")
     md.append("## Handling of repeated responses\n")
     md.append("Independently verified in Part C: there are ZERO repeated (UserId, QuestionId) pairs in "
                "`train_task_3_4.csv` restricted to the 944 retained items (`n_repeated_student_question_pairs "

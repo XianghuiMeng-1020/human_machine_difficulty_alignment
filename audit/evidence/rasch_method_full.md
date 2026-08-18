@@ -57,7 +57,16 @@ converged_at_iter = 481; total iterations run = 501 (loss plateau reached at ite
 
 ## Handling of missing responses
 
-Not applicable in the (student,item) missing-completely-at-random sense used by some IRT packages: the model is fit directly on the SPARSE observed-response list (every row of `train_task_3_4.csv` restricted to the 944 retained items is one observation); students who did not attempt an item simply contribute no term for that (student,item) pair. There is no imputation and no assumption that a non-attempt equals an incorrect response.
+Do **not** write “missing responses: none.” The student–item matrix is sparse.
+
+```text
+total possible student-item pairs = 4,918 × 944 = 4,642,592
+observed response pairs           = 1,377,653
+unobserved pairs                  = 4,642,592 − 1,377,653 = 3,264,939
+duplicate observed student-item pairs = 0
+```
+
+The Rasch likelihood is evaluated **only over the 1,377,653 observed response pairs**. Unobserved pairs are not imputed, are not treated as incorrect, and do not enter the likelihood. Students who did not attempt an item contribute no term for that (student, item) pair.
 
 ## Handling of repeated responses
 

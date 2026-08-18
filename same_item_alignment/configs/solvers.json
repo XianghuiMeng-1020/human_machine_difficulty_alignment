@@ -31,7 +31,7 @@
       "top_p": 1.0,
       "max_tokens": 4,
       "seed_if_applicable": 20260818,
-      "swap_note": "Original selection OpenGVLab/InternVL2_5-4B used trust_remote_code custom modeling code incompatible with the installed transformers 5.9.0 internal tied-weights API (AttributeError: all_tied_weights_keys). Switched to the officially converted native-transformers checkpoint InternVL3-2B-hf (architecture InternVLForConditionalGeneration, built into transformers, no remote code) to avoid a fragile/unverifiable monkeypatch."
+      "swap_note": "Original selection OpenGVLab/InternVL2_5-4B used trust_remote_code custom modeling code incompatible with the installed transformers 5.9.0 internal tied-weights API (AttributeError: all_tied_weights_keys). The executed frozen full-run solver is OpenGVLab/InternVL3-8B-hf (native transformers class InternVLForConditionalGeneration, no trust_remote_code). InternVL3-2B-hf was only a discarded intermediate pilot candidate, not the 944-item executed model."
     },
     {
       "solver_id": "solver_3_smolvlm2_2b",

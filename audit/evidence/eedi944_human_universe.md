@@ -32,6 +32,10 @@ No manual adjudication was performed on these four items.
 - n_unique_student_question_pairs = 1377653
 - n_repeated_student_question_pairs = 0
 - maximum_repeats_for_one_student_question = 1
+- total possible student-item pairs = 4918 × 944 = 4,642,592
+- unobserved student-item pairs = 3,264,939
+- duplicate observed student-item pairs = 0
+- Rasch likelihood evaluated only over observed pairs; unobserved pairs are not imputed and do not enter the likelihood
 
 ## Response-source rule
 

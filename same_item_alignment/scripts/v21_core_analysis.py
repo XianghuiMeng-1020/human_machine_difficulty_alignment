@@ -604,7 +604,7 @@ def main():
     smd_rows = []
     for label, col in [
         ("empirical_correctness", "mean_correct"),
-        ("EB_difficulty(shrunk_rate)", "shrunk_rate"),
+        ("EB_posterior_correctness(shrunk_rate)", "shrunk_rate"),
         ("attempt_count(n_attempts)", "n_attempts"),
     ]:
         a = full_same[col]; b = full_rest[col]
@@ -615,6 +615,19 @@ def main():
             "n_subset": int(len(a)), "n_full_rest": int(len(b)),
             "SMD": float(d), "direction": ("subset higher" if d > 0 else "subset lower"),
         })
+        if col == "shrunk_rate":
+            # documentation-only derived transform: difficulty := 1 - posterior correctness
+            smd_rows.append({
+                "variable": "EB_difficulty(1-shrunk_rate)",
+                "mean_subset": 1.0 - float(a.mean()),
+                "mean_full_rest": 1.0 - float(b.mean()),
+                "sd_subset": float(a.std()),
+                "sd_full_rest": float(b.std()),
+                "n_subset": int(len(a)),
+                "n_full_rest": int(len(b)),
+                "SMD": float(-d),
+                "direction": ("subset higher" if (-d) > 0 else "subset lower"),
+            })
 
     for bucket_col, label in [("empirical_bucket", "empirical_bucket_category"), ("shrunk_bucket", "shrunk_bucket_category")]:
         cs = full_same[bucket_col].value_counts()

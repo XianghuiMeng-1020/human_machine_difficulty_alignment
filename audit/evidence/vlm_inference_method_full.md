@@ -13,8 +13,8 @@ This documents exact configuration for the final 944-item clean universe. No new
 - transformers version: 5.15.0 (RunPod full-run environment; upgraded from 5.9.0 used in local pilot smoke-tests, which lacked native support for InternVL3-hf / SmolVLM2 classes)
 - torch version: 2.6.0+cu124 (upgraded on the pod from image default 2.4.1+cu124)
 - CUDA version: 12.4 (driver 550.127.05)
-- Image preprocessing / resize rule: model-default HF image processor for each checkpoint (`AutoProcessor.from_pretrained`), i.e. each model's own native preprocessing config (no custom resize/crop pipeline was written); exact max-resolution is governed by each processor's default `size`/`max_pixels` config, not overridden.
-- Maximum image resolution: processor default per checkpoint (not manually capped)
+- Image preprocessing / resize rule: `AutoProcessor.from_pretrained(checkpoint)` with no custom resize/crop pipeline. Exact processor `size` / `max_pixels` / normalization constants were **NOT RECORDED** at execution time (processor defaults used, not logged).
+- Maximum image size: **NOT RECORDED** (not manually capped; default max_pixels not logged)
 - Prompt text: see `configs/prompts/mcq_prompt.txt` (identical across all 3 solvers)
 - System prompt: none separate from the single user-turn prompt below
 - temperature: 0.0
@@ -35,8 +35,8 @@ This documents exact configuration for the final 944-item clean universe. No new
 - transformers version: 5.15.0 (RunPod full-run environment; upgraded from 5.9.0 used in local pilot smoke-tests, which lacked native support for InternVL3-hf / SmolVLM2 classes)
 - torch version: 2.6.0+cu124 (upgraded on the pod from image default 2.4.1+cu124)
 - CUDA version: 12.4 (driver 550.127.05)
-- Image preprocessing / resize rule: model-default HF image processor for each checkpoint (`AutoProcessor.from_pretrained`), i.e. each model's own native preprocessing config (no custom resize/crop pipeline was written); exact max-resolution is governed by each processor's default `size`/`max_pixels` config, not overridden.
-- Maximum image resolution: processor default per checkpoint (not manually capped)
+- Image preprocessing / resize rule: `AutoProcessor.from_pretrained(checkpoint)` with no custom resize/crop pipeline. Exact processor `size` / `max_pixels` / normalization constants were **NOT RECORDED** at execution time (processor defaults used, not logged).
+- Maximum image size: **NOT RECORDED** (not manually capped; default max_pixels not logged)
 - Prompt text: see `configs/prompts/mcq_prompt.txt` (identical across all 3 solvers)
 - System prompt: none separate from the single user-turn prompt below
 - temperature: 0.0
@@ -45,7 +45,7 @@ This documents exact configuration for the final 944-item clean universe. No new
 - do_sample: False (temperature=0.0 deterministic greedy decoding)
 - random seed: 20260818
 - batch size: 1 (sequential per-item requests; see `runtime_ms` column in `raw_predictions/solver2_full.csv` for per-item latency)
-- Model-swap history: Original selection OpenGVLab/InternVL2_5-4B used trust_remote_code custom modeling code incompatible with the installed transformers 5.9.0 internal tied-weights API (AttributeError: all_tied_weights_keys). Switched to the officially converted native-transformers checkpoint InternVL3-2B-hf (architecture InternVLForConditionalGeneration, built into transformers, no remote code) to avoid a fragile/unverifiable monkeypatch.
+- Model-swap history: Original selection OpenGVLab/InternVL2_5-4B used trust_remote_code custom modeling code incompatible with the installed transformers 5.9.0 internal tied-weights API (AttributeError: all_tied_weights_keys). The executed frozen full-run solver is OpenGVLab/InternVL3-8B-hf (native transformers class InternVLForConditionalGeneration, no trust_remote_code). InternVL3-2B-hf was only a discarded intermediate pilot candidate, not the 944-item executed model.
 
 ## solver_3_smolvlm2_2b
 
@@ -58,8 +58,8 @@ This documents exact configuration for the final 944-item clean universe. No new
 - transformers version: 5.15.0 (RunPod full-run environment; upgraded from 5.9.0 used in local pilot smoke-tests, which lacked native support for InternVL3-hf / SmolVLM2 classes)
 - torch version: 2.6.0+cu124 (upgraded on the pod from image default 2.4.1+cu124)
 - CUDA version: 12.4 (driver 550.127.05)
-- Image preprocessing / resize rule: model-default HF image processor for each checkpoint (`AutoProcessor.from_pretrained`), i.e. each model's own native preprocessing config (no custom resize/crop pipeline was written); exact max-resolution is governed by each processor's default `size`/`max_pixels` config, not overridden.
-- Maximum image resolution: processor default per checkpoint (not manually capped)
+- Image preprocessing / resize rule: `AutoProcessor.from_pretrained(checkpoint)` with no custom resize/crop pipeline. Exact processor `size` / `max_pixels` / normalization constants were **NOT RECORDED** at execution time (processor defaults used, not logged).
+- Maximum image size: **NOT RECORDED** (not manually capped; default max_pixels not logged)
 - Prompt text: see `configs/prompts/mcq_prompt.txt` (identical across all 3 solvers)
 - System prompt: none separate from the single user-turn prompt below
 - temperature: 0.0
