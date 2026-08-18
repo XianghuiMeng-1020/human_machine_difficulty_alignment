@@ -1,0 +1,4 @@
+question_id,solver_id,raw_output,parsed_option,parse_success,correct_option,machine_correct,request_index,runtime_ms
+17,solver_3_llavanext_mistral7b,C ,3,True,4,False,0,1215.561866760254
+63,solver_3_llavanext_mistral7b,A ,1,True,4,False,1,296.1297035217285
+67,solver_3_llavanext_mistral7b,C ,3,True,1,False,2,550.96435546875

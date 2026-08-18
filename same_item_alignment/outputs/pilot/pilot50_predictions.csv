@@ -1,0 +1,151 @@
+question_id,solver_id,raw_output,parsed_option,parse_success,correct_option,machine_correct,request_index,runtime_ms
+17,solver_1_qwen2vl7b,B,2,True,4,False,0,762.1655464172363
+63,solver_1_qwen2vl7b,B,2,True,4,False,1,100.27384757995604
+67,solver_1_qwen2vl7b,B,2,True,1,False,2,137.41159439086914
+107,solver_1_qwen2vl7b,B,2,True,2,True,3,130.45668601989746
+118,solver_1_qwen2vl7b,B,2,True,4,False,4,133.21447372436523
+124,solver_1_qwen2vl7b,B,2,True,2,True,5,93.16277503967284
+129,solver_1_qwen2vl7b,D,4,True,3,False,6,136.674165725708
+148,solver_1_qwen2vl7b,B,2,True,2,True,7,133.9397430419922
+193,solver_1_qwen2vl7b,C,3,True,3,True,8,137.1786594390869
+207,solver_1_qwen2vl7b,B,2,True,3,False,9,135.87450981140137
+225,solver_1_qwen2vl7b,B,2,True,1,False,10,136.02757453918457
+283,solver_1_qwen2vl7b,B,2,True,2,True,11,133.73136520385742
+293,solver_1_qwen2vl7b,C,3,True,2,False,12,127.8700828552246
+312,solver_1_qwen2vl7b,B,2,True,1,False,13,134.06825065612793
+315,solver_1_qwen2vl7b,C,3,True,1,False,14,135.47015190124512
+329,solver_1_qwen2vl7b,B,2,True,4,False,15,134.1235637664795
+332,solver_1_qwen2vl7b,B,2,True,2,True,16,138.3674144744873
+338,solver_1_qwen2vl7b,B,2,True,3,False,17,131.3071250915527
+345,solver_1_qwen2vl7b,B,2,True,2,True,18,132.2493553161621
+382,solver_1_qwen2vl7b,B,2,True,4,False,19,133.79955291748047
+390,solver_1_qwen2vl7b,C,3,True,3,True,20,91.49456024169922
+395,solver_1_qwen2vl7b,A,1,True,1,True,21,137.5436782836914
+445,solver_1_qwen2vl7b,B,2,True,3,False,22,136.23666763305664
+450,solver_1_qwen2vl7b,A,1,True,4,False,23,135.73956489562988
+468,solver_1_qwen2vl7b,C,3,True,1,False,24,130.11527061462402
+516,solver_1_qwen2vl7b,C,3,True,1,False,25,128.79514694213867
+521,solver_1_qwen2vl7b,C,3,True,3,True,26,134.87744331359863
+527,solver_1_qwen2vl7b,B,2,True,2,True,27,129.17113304138184
+622,solver_1_qwen2vl7b,A,1,True,3,False,28,132.48920440673828
+636,solver_1_qwen2vl7b,D,4,True,4,True,29,128.23963165283203
+680,solver_1_qwen2vl7b,B,2,True,2,True,30,133.14008712768555
+682,solver_1_qwen2vl7b,C,3,True,3,True,31,129.84132766723633
+688,solver_1_qwen2vl7b,D,4,True,3,False,32,132.75551795959473
+694,solver_1_qwen2vl7b,B,2,True,3,False,33,135.23125648498535
+695,solver_1_qwen2vl7b,B,2,True,1,False,34,129.46391105651855
+702,solver_1_qwen2vl7b,D,4,True,4,True,35,133.46314430236816
+731,solver_1_qwen2vl7b,B,2,True,3,False,36,138.56101036071777
+733,solver_1_qwen2vl7b,C,3,True,3,True,37,132.74288177490234
+745,solver_1_qwen2vl7b,C,3,True,2,False,38,133.71658325195312
+764,solver_1_qwen2vl7b,C,3,True,4,False,39,133.71729850769043
+766,solver_1_qwen2vl7b,B,2,True,2,True,40,129.2731761932373
+770,solver_1_qwen2vl7b,C,3,True,1,False,41,141.59584045410156
+776,solver_1_qwen2vl7b,C,3,True,1,False,42,87.34560012817383
+784,solver_1_qwen2vl7b,D,4,True,4,True,43,130.2499771118164
+893,solver_1_qwen2vl7b,B,2,True,3,False,44,132.85040855407715
+894,solver_1_qwen2vl7b,A,1,True,2,False,45,136.7483139038086
+896,solver_1_qwen2vl7b,C,3,True,3,True,46,137.55178451538086
+909,solver_1_qwen2vl7b,B,2,True,4,False,47,131.4225196838379
+942,solver_1_qwen2vl7b,C,3,True,3,True,48,132.97033309936523
+947,solver_1_qwen2vl7b,B,2,True,2,True,49,129.17494773864746
+17,solver_2_internvl3_8b,C,3,True,4,False,0,1488.1274700164795
+63,solver_2_internvl3_8b,C,3,True,4,False,1,832.6914310455322
+67,solver_2_internvl3_8b,B,2,True,1,False,2,827.9352188110352
+107,solver_2_internvl3_8b,C,3,True,2,False,3,829.8437595367432
+118,solver_2_internvl3_8b,B,2,True,4,False,4,825.1633644104004
+124,solver_2_internvl3_8b,C,3,True,2,False,5,824.1477012634277
+129,solver_2_internvl3_8b,C,3,True,3,True,6,826.1747360229492
+148,solver_2_internvl3_8b,A,1,True,2,False,7,831.1605453491211
+193,solver_2_internvl3_8b,C,3,True,3,True,8,826.2135982513428
+207,solver_2_internvl3_8b,D,4,True,3,False,9,826.1134624481201
+225,solver_2_internvl3_8b,D,4,True,1,False,10,824.8827457427979
+283,solver_2_internvl3_8b,D,4,True,2,False,11,826.8885612487793
+293,solver_2_internvl3_8b,B,2,True,2,True,12,830.5737972259521
+312,solver_2_internvl3_8b,C,3,True,1,False,13,825.3865242004395
+315,solver_2_internvl3_8b,A,1,True,1,True,14,827.6677131652832
+329,solver_2_internvl3_8b,D,4,True,4,True,15,830.7547569274902
+332,solver_2_internvl3_8b,B,2,True,2,True,16,825.9623050689697
+338,solver_2_internvl3_8b,B,2,True,3,False,17,826.383113861084
+345,solver_2_internvl3_8b,B,2,True,2,True,18,829.9479484558105
+382,solver_2_internvl3_8b,B,2,True,4,False,19,825.6170749664307
+390,solver_2_internvl3_8b,C,3,True,3,True,20,824.2547512054443
+395,solver_2_internvl3_8b,A,1,True,1,True,21,825.9179592132568
+445,solver_2_internvl3_8b,C,3,True,3,True,22,823.3680725097656
+450,solver_2_internvl3_8b,B,2,True,4,False,23,825.6227970123291
+468,solver_2_internvl3_8b,D,4,True,1,False,24,825.2890110015869
+516,solver_2_internvl3_8b,D,4,True,1,False,25,833.4963321685791
+521,solver_2_internvl3_8b,C,3,True,3,True,26,825.3004550933838
+527,solver_2_internvl3_8b,B,2,True,2,True,27,825.192928314209
+622,solver_2_internvl3_8b,C,3,True,3,True,28,830.3489685058594
+636,solver_2_internvl3_8b,D,4,True,4,True,29,827.5237083435059
+680,solver_2_internvl3_8b,B,2,True,2,True,30,824.6016502380371
+682,solver_2_internvl3_8b,B,2,True,3,False,31,825.9820938110352
+688,solver_2_internvl3_8b,B,2,True,3,False,32,824.9478340148926
+694,solver_2_internvl3_8b,A,1,True,3,False,33,833.7583541870117
+695,solver_2_internvl3_8b,D,4,True,1,False,34,823.5757350921631
+702,solver_2_internvl3_8b,D,4,True,4,True,35,826.8449306488037
+731,solver_2_internvl3_8b,B,2,True,3,False,36,827.7750015258789
+733,solver_2_internvl3_8b,C,3,True,3,True,37,826.6730308532715
+745,solver_2_internvl3_8b,C,3,True,2,False,38,828.3863067626953
+764,solver_2_internvl3_8b,C,3,True,4,False,39,825.4916667938232
+766,solver_2_internvl3_8b,B,2,True,2,True,40,832.1280479431152
+770,solver_2_internvl3_8b,B,2,True,1,False,41,826.0715007781982
+776,solver_2_internvl3_8b,D,4,True,1,False,42,829.2331695556641
+784,solver_2_internvl3_8b,C,3,True,4,False,43,826.815128326416
+893,solver_2_internvl3_8b,B,2,True,3,False,44,823.4143257141113
+894,solver_2_internvl3_8b,C,3,True,2,False,45,828.282356262207
+896,solver_2_internvl3_8b,C,3,True,3,True,46,825.221061706543
+909,solver_2_internvl3_8b,C,3,True,4,False,47,824.2428302764893
+942,solver_2_internvl3_8b,B,2,True,3,False,48,823.1301307678223
+947,solver_2_internvl3_8b,B,2,True,2,True,49,826.7371654510498
+17,solver_3_smolvlm2_2b, B,2,True,4,False,0,1064.300298690796
+63,solver_3_smolvlm2_2b, B,2,True,4,False,1,217.50950813293457
+67,solver_3_smolvlm2_2b, B,2,True,1,False,2,219.21348571777344
+107,solver_3_smolvlm2_2b, B,2,True,2,True,3,217.64707565307617
+118,solver_3_smolvlm2_2b, B,2,True,4,False,4,214.1752243041992
+124,solver_3_smolvlm2_2b, B,2,True,2,True,5,216.49837493896484
+129,solver_3_smolvlm2_2b, B,2,True,3,False,6,218.7972068786621
+148,solver_3_smolvlm2_2b, B,2,True,2,True,7,219.24853324890137
+193,solver_3_smolvlm2_2b, C,3,True,3,True,8,216.4394855499268
+207,solver_3_smolvlm2_2b, D,4,True,3,False,9,216.9489860534668
+225,solver_3_smolvlm2_2b, C,3,True,1,False,10,216.3693904876709
+283,solver_3_smolvlm2_2b, D,4,True,2,False,11,220.18122673034668
+293,solver_3_smolvlm2_2b, B,2,True,2,True,12,218.72520446777344
+312,solver_3_smolvlm2_2b, B,2,True,1,False,13,218.505859375
+315,solver_3_smolvlm2_2b, B,2,True,1,False,14,218.7206745147705
+329,solver_3_smolvlm2_2b, B,2,True,4,False,15,217.56696701049805
+332,solver_3_smolvlm2_2b, B,2,True,2,True,16,218.3218002319336
+338,solver_3_smolvlm2_2b, B,2,True,3,False,17,218.1191444396973
+345,solver_3_smolvlm2_2b, B,2,True,2,True,18,231.75859451293945
+382,solver_3_smolvlm2_2b, B,2,True,4,False,19,217.35072135925293
+390,solver_3_smolvlm2_2b, B,2,True,3,False,20,216.2606716156006
+395,solver_3_smolvlm2_2b, D,4,True,1,False,21,216.9947624206543
+445,solver_3_smolvlm2_2b, B,2,True,3,False,22,216.08209609985352
+450,solver_3_smolvlm2_2b, B,2,True,4,False,23,217.68832206726077
+468,solver_3_smolvlm2_2b, B,2,True,1,False,24,217.68736839294436
+516,solver_3_smolvlm2_2b, B,2,True,1,False,25,217.23341941833496
+521,solver_3_smolvlm2_2b, B,2,True,3,False,26,216.57633781433103
+527,solver_3_smolvlm2_2b, B,2,True,2,True,27,218.2981967926025
+622,solver_3_smolvlm2_2b, B,2,True,3,False,28,213.789701461792
+636,solver_3_smolvlm2_2b, B,2,True,4,False,29,209.7170352935791
+680,solver_3_smolvlm2_2b, B,2,True,2,True,30,219.9349403381348
+682,solver_3_smolvlm2_2b, B,2,True,3,False,31,219.58327293396
+688,solver_3_smolvlm2_2b, B,2,True,3,False,32,216.08901023864743
+694,solver_3_smolvlm2_2b, B,2,True,3,False,33,216.19129180908203
+695,solver_3_smolvlm2_2b, B,2,True,1,False,34,216.4034843444824
+702,solver_3_smolvlm2_2b, D,4,True,4,True,35,221.77863121032715
+731,solver_3_smolvlm2_2b, B,2,True,3,False,36,216.1350250244141
+733,solver_3_smolvlm2_2b, B,2,True,3,False,37,218.63317489624023
+745,solver_3_smolvlm2_2b, D,4,True,2,False,38,226.20654106140137
+764,solver_3_smolvlm2_2b, B,2,True,4,False,39,219.8491096496582
+766,solver_3_smolvlm2_2b, B,2,True,2,True,40,216.10760688781735
+770,solver_3_smolvlm2_2b, B,2,True,1,False,41,217.9105281829834
+776,solver_3_smolvlm2_2b, B,2,True,1,False,42,214.1115665435791
+784,solver_3_smolvlm2_2b, C,3,True,4,False,43,218.00518035888672
+893,solver_3_smolvlm2_2b, B,2,True,3,False,44,216.29762649536133
+894,solver_3_smolvlm2_2b, B,2,True,2,True,45,216.14480018615723
+896,solver_3_smolvlm2_2b, D,4,True,3,False,46,217.254638671875
+909,solver_3_smolvlm2_2b, B,2,True,4,False,47,217.6003456115723
+942,solver_3_smolvlm2_2b, B,2,True,3,False,48,217.2832489013672
+947,solver_3_smolvlm2_2b, B,2,True,2,True,49,216.58611297607425

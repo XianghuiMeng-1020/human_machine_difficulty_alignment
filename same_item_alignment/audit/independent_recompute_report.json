@@ -1,0 +1,84 @@
+{
+  "item_count": 944,
+  "learner_difficulty_summary": {
+    "irt_mean": 6.061489088438066e-09,
+    "irt_sd": 0.8516403436660767,
+    "irt_min": -5.370386600494385,
+    "irt_max": 2.2506933212280273,
+    "eb_mean": 0.49260310424969217,
+    "empirical_mean": 0.4928830707074401
+  },
+  "per_solver_accuracy": {
+    "solver_1_qwen2vl7b": {
+      "n": 944,
+      "accuracy": 0.3940677966101695
+    },
+    "solver_2_internvl3_8b": {
+      "n": 944,
+      "accuracy": 0.4173728813559322
+    },
+    "solver_3_smolvlm2_2b": {
+      "n": 944,
+      "accuracy": 0.2510593220338983
+    }
+  },
+  "ensemble_error_distribution": {
+    "mean": 0.6458333333333334,
+    "sd": 0.34211006327343535,
+    "quantiles": {
+      "0": 0.0,
+      "0.25": 0.33333333333333337,
+      "0.5": 0.6666666666666667,
+      "0.75": 1.0,
+      "1.0": 1.0
+    }
+  },
+  "primary_spearman": {
+    "n": 944,
+    "rho": 0.10999426767707712,
+    "ci_lower": 0.0488866734332485,
+    "ci_upper": 0.17230791824938194
+  },
+  "robustness_spearman": {
+    "eb": {
+      "rho": 0.10849715463557584,
+      "ci": [
+        0.04714708523208731,
+        0.17123690063684585
+      ]
+    },
+    "empirical": {
+      "rho": 0.10972278708057635,
+      "ci": [
+        0.04838887188698956,
+        0.17248555991323739
+      ]
+    }
+  },
+  "regression_dataset_n_rows": 2832,
+  "decile_machine_accuracy": {
+    "1": 0.4386,
+    "2": 0.3901,
+    "3": 0.3582,
+    "4": 0.3825,
+    "5": 0.3652,
+    "6": 0.3262,
+    "7": 0.3368,
+    "8": 0.3723,
+    "9": 0.3156,
+    "10": 0.2561
+  },
+  "quintile_machine_accuracy": {
+    "1": 0.4145,
+    "2": 0.3704,
+    "3": 0.3457,
+    "4": 0.3545,
+    "5": 0.2857
+  },
+  "disagreement_group_counts": {
+    "aligned_easy": 103,
+    "aligned_hard": 169,
+    "human_hard_machine_easy": 67,
+    "human_easy_machine_hard": 133
+  }
+}

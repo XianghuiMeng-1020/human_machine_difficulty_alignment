@@ -1,0 +1,4 @@
+You are answering a multiple-choice school mathematics question shown in the image.
+The image contains the question text and four answer options.
+Look at the image carefully and determine which option is correct.
+Respond with ONLY one character: A, B, C, or D. Do not explain your reasoning. Do not output anything else.

@@ -1,0 +1,55 @@
+{
+  "solvers": [
+    {
+      "solver_id": "solver_1_qwen2vl7b",
+      "provider_or_creator": "Alibaba Cloud / Qwen Team",
+      "exact_checkpoint": "Qwen/Qwen2-VL-7B-Instruct",
+      "checkpoint_revision": "main",
+      "parameter_count": "7B (dense, vision+language)",
+      "quantization": "none (bfloat16)",
+      "inference_library": "transformers (Qwen2VLForConditionalGeneration) + qwen-vl-utils",
+      "library_version_key": "transformers",
+      "device": "cuda:0 (rented RunPod RTX 4090 24GB, used for full 944-item run due to local-machine instability; see 03_machine_solver_runs.md)",
+      "prompt_template": "prompts/mcq_prompt.txt",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 4,
+      "seed_if_applicable": 20260818
+    },
+    {
+      "solver_id": "solver_2_internvl3_8b",
+      "provider_or_creator": "OpenGVLab / Shanghai AI Laboratory",
+      "exact_checkpoint": "OpenGVLab/InternVL3-8B-hf",
+      "checkpoint_revision": "main",
+      "parameter_count": "8B (dense, vision+language)",
+      "quantization": "none (bfloat16)",
+      "inference_library": "transformers (InternVLForConditionalGeneration, native class, no trust_remote_code)",
+      "library_version_key": "transformers",
+      "device": "cuda:0 (rented RunPod RTX 4090 24GB, used for full 944-item run due to local-machine instability; see 03_machine_solver_runs.md)",
+      "prompt_template": "prompts/mcq_prompt.txt",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 4,
+      "seed_if_applicable": 20260818,
+      "swap_note": "Original selection OpenGVLab/InternVL2_5-4B used trust_remote_code custom modeling code incompatible with the installed transformers 5.9.0 internal tied-weights API (AttributeError: all_tied_weights_keys). Switched to the officially converted native-transformers checkpoint InternVL3-2B-hf (architecture InternVLForConditionalGeneration, built into transformers, no remote code) to avoid a fragile/unverifiable monkeypatch."
+    },
+    {
+      "solver_id": "solver_3_smolvlm2_2b",
+      "provider_or_creator": "Hugging Face (SmolLM / SmolVLM team)",
+      "exact_checkpoint": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "checkpoint_revision": "main",
+      "parameter_count": "2.2B (dense, vision+language)",
+      "quantization": "none (bfloat16)",
+      "inference_library": "transformers (SmolVLMForConditionalGeneration, native class, no trust_remote_code)",
+      "library_version_key": "transformers",
+      "device": "cuda:0 (rented RunPod RTX 4090 24GB, used for full 944-item run due to local-machine instability; see 03_machine_solver_runs.md)",
+      "prompt_template": "prompts/mcq_prompt.txt",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 4,
+      "seed_if_applicable": 20260818,
+      "swap_note": "Original selection openbmb/MiniCPM-V-2_6 used trust_remote_code custom modeling code with the same tied-weights incompatibility risk as InternVL2_5-4B under transformers 5.9.0. Replacement 1, native openbmb/MiniCPM-V-4.6, turned out to be a much smaller efficient/linear-attention checkpoint that performed at chance (24% on the 50-item pilot). Replacement 2, llava-hf/llava-v1.6-mistral-7b-hf (LLaVA-NeXT/Mistral-7B), scored below chance (20%) and collapsed onto a single answer option (41/50 = 82% predicted 'A') -- a documented pilot failure mode (Sec. 5 criteria), not silently accepted. Replaced with HuggingFaceTB/SmolVLM2-2.2B-Instruct (native class, appropriately-sized, independently-trained/maintained solver family) for the retained solver 3."
+    }
+  ],
+  "note": "provider_or_creator confirms three distinct independently-trained model families (Alibaba, Shanghai AI Lab / OpenGVLab, OpenBMB/Tsinghua), not three checkpoints of one family. Exact library_version and quantization actually used are re-recorded per run in same_item_alignment/audit/03_machine_solver_runs.md after each run completes, since versions may be pinned/adjusted for compatibility."
+}

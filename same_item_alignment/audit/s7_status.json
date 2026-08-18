@@ -1,0 +1,11 @@
+{
+  "n_items_integrated": 944,
+  "n_solvers": 3,
+  "solver_ids": [
+    "solver_1_qwen2vl7b",
+    "solver_2_internvl3_8b",
+    "solver_3_smolvlm2_2b"
+  ],
+  "n_items_with_missing_solver_output": 0,
+  "mean_machine_error_rate": 0.6458333333333334
+}

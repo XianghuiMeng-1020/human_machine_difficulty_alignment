@@ -1,0 +1,29 @@
+{
+  "n_items": 944,
+  "primary_rho": 0.10999426767707712,
+  "primary_ci": [
+    0.04869298235917283,
+    0.1718664280274259
+  ],
+  "primary_perm_p": 0.0013997200559888023,
+  "gradient_rho": -0.8181818181818182,
+  "gradient_p": 0.0038149200825507135,
+  "regression_pooled_or": 1.2522705045125535,
+  "regression_pooled_or_ci": [
+    1.0803810290766658,
+    1.4515077313161933
+  ],
+  "regression_pooled_p": 0.002823289380744893,
+  "disagreement_counts": {
+    "aligned_easy": 103,
+    "aligned_hard": 169,
+    "human_hard_machine_easy": 67,
+    "human_easy_machine_hard": 133
+  },
+  "kappa": 0.04473212708506835,
+  "kappa_ci": [
+    -0.005002566049106581,
+    0.09653551807789486
+  ],
+  "selection_bias_max_smd": 1.5159001615073837
+}

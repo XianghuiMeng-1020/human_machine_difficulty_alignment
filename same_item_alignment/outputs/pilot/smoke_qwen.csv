@@ -1,0 +1,4 @@
+question_id,solver_id,raw_output,parsed_option,parse_success,correct_option,machine_correct,request_index,runtime_ms
+17,solver_1_qwen2vl7b,B,2,True,4,False,0,1139.6369934082031
+63,solver_1_qwen2vl7b,B,2,True,4,False,1,111.42182350158691
+67,solver_1_qwen2vl7b,B,2,True,1,False,2,137.7239227294922

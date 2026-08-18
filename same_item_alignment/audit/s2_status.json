@@ -1,0 +1,13 @@
+{
+  "n_items": 944,
+  "eb_prior_alpha0": 4.652854469530791,
+  "eb_prior_beta0": 4.522257227137732,
+  "irt_converged_iter": 481,
+  "irt_b_sd": 0.8516403436660767,
+  "rho_irt_emp": 0.9927954429028315,
+  "rho_irt_eb": 0.9865119785177375,
+  "rho_eb_emp": 0.9932350084138003,
+  "extreme_easy_items": 3,
+  "extreme_hard_items": 0,
+  "verdict": "PASS"
+}

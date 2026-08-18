@@ -1,0 +1,57 @@
+{
+  "per_solver": {
+    "solver_1_qwen2vl7b": {
+      "n": 50,
+      "n_parsed": 50,
+      "parse_success_rate": 1.0,
+      "n_correct": 21,
+      "accuracy": 0.42,
+      "binom_p_vs_chance": 0.006262907247611063,
+      "answer_distribution": {
+        "2": 0.52,
+        "3": 0.3,
+        "4": 0.1,
+        "1": 0.08
+      },
+      "max_single_option_share": 0.52,
+      "clearly_above_chance": true,
+      "answer_collapse_flag": false
+    },
+    "solver_2_internvl3_8b": {
+      "n": 50,
+      "n_parsed": 50,
+      "parse_success_rate": 1.0,
+      "n_correct": 20,
+      "accuracy": 0.4,
+      "binom_p_vs_chance": 0.01391760867866067,
+      "answer_distribution": {
+        "3": 0.36,
+        "2": 0.36,
+        "4": 0.2,
+        "1": 0.08
+      },
+      "max_single_option_share": 0.36,
+      "clearly_above_chance": true,
+      "answer_collapse_flag": false
+    },
+    "solver_3_smolvlm2_2b": {
+      "n": 50,
+      "n_parsed": 50,
+      "parse_success_rate": 1.0,
+      "n_correct": 13,
+      "accuracy": 0.26,
+      "binom_p_vs_chance": 0.4890138263271131,
+      "answer_distribution": {
+        "2": 0.82,
+        "4": 0.12,
+        "3": 0.06
+      },
+      "max_single_option_share": 0.82,
+      "clearly_above_chance": false,
+      "answer_collapse_flag": true
+    }
+  },
+  "n_solvers_clearly_pass": 2,
+  "n_solvers_collapsed": 1,
+  "overall_verdict": "PARTIAL"
+}

@@ -1,0 +1,20 @@
+{
+  "raw_answers_sha256": "8bdbe55a310641f9e59caffbff2eac85da0b2f6c6b2bb99fa69922296f52a4e1",
+  "source_zip_sha256": "c7f01672360f1adeb3cf9507d72455d7be035bf897e4a167293e8938049800e1",
+  "n_attempts_recomputed": 1382727,
+  "n_questions_recomputed": 948,
+  "n_students_recomputed": 4918,
+  "n_ambiguous_correct_answer_excluded": 4,
+  "ambiguous_correct_answer_qids": [
+    43,
+    84,
+    206,
+    860
+  ],
+  "n_missing_image_excluded": 0,
+  "n_retained": 944,
+  "n_dup_response_rows": 0,
+  "n_isCorrect_inconsistent_rows": 0,
+  "spotcheck_n": 60,
+  "spotcheck_pass": 60
+}
