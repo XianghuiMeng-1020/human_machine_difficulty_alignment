@@ -1,9 +1,12 @@
 # Reviewer/Editor Comment -> Final Evidence Matrix (Part R, v2.1)
 
 Base matrix is `audit/01_comment_matrix.md` (IDs: A1-A3 = Editor A, B1-B3 = Editor B, C1-C6 =
-Editor C, R1.1-1.3 = Reviewer 1, R2.1-2.6 = Reviewer 2, I1-I5 = internal integrity checks). No
-"Editor D" comment set was found anywhere in the repo; this ID from the task instructions could
-not be matched to any artifact and is flagged as an open ambiguity (Part X.19). Below, each row
+Editor C, R1.1-1.3 = Reviewer 1, R2.1-2.6 = Reviewer 2, I1-I5 = internal integrity checks).
+**UPDATE (v2.1 write-time truth pass, R17):** "Editor D" is confirmed to be the decision letter's
+`D. PRESENTATION` section (careful language editing; correction of grammatical problems; Figure 2
+marginal counts; every table must state its denominator in the caption). It is now added as its
+own row below and cross-referenced with the closely related R2.6 (which covers the same
+presentation ground from the Reviewer-2 side). Below, each row
 is updated to its FINAL v2.1 status; unchanged rows are carried forward from `01_comment_matrix.md`
 with a note.
 
@@ -29,8 +32,8 @@ with a note.
 | R2.3 | LLM identity/provider/date | RESOLVED for RACE LLM backends (exact model IDs now documented); EeDi VLM identities also now fully documented | exact_model_id per backend | `audit/evidence/race_llm_method_full.md`, `audit/evidence/vlm_inference_method_full.md` | Methods must cite exact model IDs (e.g. `doubao-seed-2-0-pro-260215`), never generic "Doubao" | None | PASS (upgraded from PARTIAL) |
 | R2.4 | Tercile sensitivity | Extended to same-item EeDi quintile/decile gradient + RACE threshold sensitivity (20/80,25/75,33/67) | `outputs/same_item_final/human_difficulty_deciles.csv`, `outputs/race_final/threshold_sensitivity_full.csv` | New tables for both studies | None | PASS |
 | R2.5 | No-consensus analysis | RESOLVED with corrected 4873/14 (not 4870/17) | `outputs/race_final/race_no_consensus_exact.csv` | by-band: HIGH=13, MIDDLE=1 | Table must use corrected counts | None | PASS |
-| R2.6 | Figure/language/denominators (presentation) | Not addressed in this analysis-only pass (explicitly deferred to manuscript writing) | n/a | n/a | Deferred | Deferred | NOT STARTED (unchanged; presentation work happens after this packet) |
-| Editor D | (no matching artifact found anywhere in the repo) | **UNRESOLVED AMBIGUITY** | none found | none found | Cannot map without the original comment text | n/a | **BLOCKED — needs the actual "Editor D" comment text from the user/journal correspondence** |
+| R2.6 | Figure/language/denominators (presentation) | Merged with **Editor D** below (same presentation requirement, raised independently by both the editor and Reviewer 2); addressed only at manuscript-writing time | n/a — see Editor D row | n/a — see Editor D row | Deferred to writing | Deferred | READY FOR WRITING (see Editor D row) |
+| Editor D | `D. PRESENTATION`: (1) careful language/copy editing; (2) fix grammatical problems throughout; (3) Figure 2 must show marginal counts; (4) every table must state its exact denominator in the caption | Scientific action = none (this is a presentation/formatting fix applied at manuscript-writing time, not a new analysis); this reconciliation task's job is only to make every artifact denominator-traceable so the writer CAN satisfy (4) | Every v2.1 output file/table now carries an explicit `n=`/denominator in its own filename, header row, or `.provenance.json` (`outputs/revision_candidate_v21/tables/*.provenance.json`, `denominator` field); Figure 2 candidate source (`eedi_disagreement_source.csv`) includes full per-cell n so marginal counts can be added when the figure is finalized | At manuscript-writing time: (a) run a full copy-edit/grammar pass; (b) add explicit marginal-count annotations to Figure 2; (c) add a one-line denominator statement to every table caption (e.g. "n=944 same-item questions", "n=4,887 RACE dev items") | Presentation only; does not change any reported number | READY FOR WRITING (mechanical presentation task; all underlying denominators are now documented) |
 
 ## Special note: Human–Machine Alignment comment (R1.1 / R2.1)
 Per instruction, this comment is answered with **genuine same-item evidence**: 944 identical

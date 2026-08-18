@@ -108,12 +108,18 @@ accidental duplicate-success rows). Full detail: `audit/evidence/race_llm_method
 
 ## S9. RACE statistical results (exact final numbers)
 
-- Consensus: 4,873/4,887 (14 no-consensus: 13 HIGH, 1 MIDDLE); 3-way full agreement = 4,870
-  (**not** 4,561 — an earlier circulated figure is superseded/incorrect).
+- Consensus: 4,873/4,887 (14 no-consensus: 13 HIGH, 1 MIDDLE); **CORRECTED (R1 reconciliation,
+  see `audit/evidence/race_llm_agreement_state_reconciliation.md`): strict three-way unanimous
+  agreement = 4,561 (all 3 backends valid AND identical). The figure "4,870" is NOT unanimous
+  agreement — it equals 4,561 + 309 = items where the three-valid subset reached ANY 2-of-3-or-better
+  majority, a superset of unanimity. "4,870" must never again be called "three-way full agreement."**
 - Conditional (consensus-only) accuracy: 95.36%; unconditional: 95.09%.
 - Band x region: chi2=131.78, p=2.24e-28, Cramer's V=0.164.
-- LLM-incorrect x region: chi2=290.96 (independently recomputed here) / 282.35 (frozen
-  `g6_llm_incorrect_x_region.csv`) — small discrepancy, unresolved, see Part X.19; V~0.24 either way.
+- LLM x region: **RESOLVED (R2 reconciliation,** `audit/evidence/llm_region_estimand_reconciliation.md`**)** —
+  chi2=290.96, V=0.244 is the UNCONDITIONAL failure analysis (n=4887, no-consensus counted as
+  failure; adopted as PRIMARY); chi2=282.35, V=0.241 is the CONDITIONAL consensus-error analysis
+  (n=4873, consensus-only; retained as SENSITIVITY). Both use the identical canonical
+  3-seed-majority region definition; the two chi2 values differ only by estimand, not by error.
 - Grade-band inversion: MIDDLE > HIGH holds for BOTH encoder (0.786 vs 0.722, 3-seed mean) and
   LLM (consensus-conditioned) across all 3 seeds — exam-source band, not intrinsic difficulty.
 
@@ -160,8 +166,10 @@ accidental duplicate-success rows). Full detail: `audit/evidence/race_llm_method
 - Do not describe RACE LLM retries as varying temperature 0.1-1.5 (contradicts the frozen,
   audited protocol, which forbids this).
 - Do not report the legacy 3-cluster GEE regression (OR=1.2523) as a primary/headline result.
-- Do not report "4,870 consensus / 17 no-consensus" (superseded by 4,873/14) or "aligned_easy:
-  67 -> 103" (a mislabeling of two different taxonomy cells, not a real number change).
+- Do not report "4,870 consensus / 17 no-consensus" (superseded by 4,873/14) or call 4,870
+  "three-way full agreement" (that is 4,561; 4,870 = a different, broader quantity — see R1
+  reconciliation) or "aligned_easy: 67 -> 103" (a mislabeling of two different taxonomy cells,
+  not a real number change).
 
 ## S13. Exact numbers safe for abstract
 
