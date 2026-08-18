@@ -1,0 +1,11 @@
+{
+  "table": "table_A_same_item_sample",
+  "generated_utc": "2026-08-18T07:15:11.328829+00:00",
+  "source_hashes": {
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\human_sample_characteristics.json": "60d7a004ebbb40453a3f565b5a0c1411e2daf90c557a9dec19335c9caf9d860d"
+  },
+  "denominator": "n=944",
+  "filter": "944-item clean universe",
+  "generation_command": "same_item_alignment/scripts/v21_latex_tables.py",
+  "output_hash": "3ed746c48913b66e8715bb16fbf0a9a3f49c10d93521680e09c9a4e41ed4f223"
+}

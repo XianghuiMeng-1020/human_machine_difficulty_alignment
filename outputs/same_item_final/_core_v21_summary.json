@@ -1,0 +1,45 @@
+{
+  "primary_2solver": {
+    "n": 944,
+    "rho": 0.13823642588882798,
+    "ci_lower": 0.07661661848919367,
+    "ci_upper": 0.20113350900751112,
+    "perm_p": 0.0001999600079984003,
+    "parametric_p": 2.025083880624604e-05
+  },
+  "robustness_3solver_independent_recompute": {
+    "n": 944,
+    "rho": 0.10999426767707712,
+    "ci_lower": 0.04869298235917283,
+    "ci_upper": 0.1718664280274259,
+    "perm_p": 0.0013997200559888023,
+    "parametric_p": 0.0007109348343549973
+  },
+  "gradient_trend_rho": -0.8181818181818182,
+  "gradient_trend_p": 0.0038149200825507135,
+  "primary_binomial_or": 1.2959934020971338,
+  "primary_binomial_or_ci_boot": [
+    1.165428795956379,
+    1.450385441896153
+  ],
+  "primary_binomial_p": 8.566501127499946e-08,
+  "kappa": 0.0782072507013769,
+  "kappa_ci": [
+    0.02836724798957508,
+    0.12711192332305166
+  ],
+  "disagreement_2solver": {
+    "human_easy_machine_easy": "78",
+    "human_easy_machine_mixed": "76",
+    "human_easy_machine_hard": "82",
+    "human_hard_machine_easy": "45",
+    "human_hard_machine_mixed": "70",
+    "human_hard_machine_hard": "121"
+  },
+  "disagreement_3solver_trace": {
+    "aligned_easy": 103,
+    "human_hard_machine_easy": 67
+  },
+  "max_smd_variable": "attempt_count(n_attempts)",
+  "max_smd": 1.5159001615073837
+}

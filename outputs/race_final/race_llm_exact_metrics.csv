@@ -1,0 +1,4 @@
+llm_run_id,n_unique,parse_ok_last_success,missing_parses,final_usable_votes,n_raw_api_rows,n,parse_success_rate,accuracy_parsed,retry_rate,exact_model_id,provider,access_date
+llm_deepseek_frozen_v1,4887,4884,3,4884,4887,4887,0.9993861264579496,0.9377559377559378,0.0,deepseek/deepseek-chat,deepseek,2026-08-06
+llm_gpt_frozen_v1,4887,4887,0,4887,4887,4887,1.0,0.9310415387763454,0.0,gpt-4o,openai_compatible,2026-08-06
+llm_doubao_frozen_v1,4887,4887,0,4887,10949,4887,1.0,0.9627583384489462,0.0002046245140167,doubao-seed-2-0-pro-260215,volcengine_ark,2026-08-15

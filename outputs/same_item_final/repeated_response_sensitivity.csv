@@ -1,0 +1,6 @@
+estimator,rho_all_vs_first,p,n
+empirical_correctness,1.0,0.0,944
+eb_correctness,1.0,0.0,944
+irt_difficulty,0.9999997289686774,0.0,944
+"primary_alignment_rho(IRT,machine_error_primary)_ALL_RESPONSES",0.13823642588882798,2.025083880624604e-05,944
+"primary_alignment_rho(IRT,machine_error_primary)_FIRST_RESPONSE_ONLY",0.13821446224737582,2.0312907774019828e-05,944

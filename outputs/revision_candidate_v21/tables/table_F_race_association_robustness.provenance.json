@@ -1,0 +1,12 @@
+{
+  "table": "table_F_race_association_robustness",
+  "generated_utc": "2026-08-18T07:15:11.344994+00:00",
+  "source_hashes": {
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\diagnostics\\g6_stats.json": "e75ed30239eb1a9ee97eb9c6d3f4bf70213c4babed901c6922b33f300dec030b",
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\race_final\\threshold_sensitivity_full.csv": "bca5884b7214601718a667dd9a4ad2c31ec84a6660e18d8071e854916f5d9725"
+  },
+  "denominator": "n=4887",
+  "filter": "canonical majority region, n=4887",
+  "generation_command": "same_item_alignment/scripts/v21_latex_tables.py",
+  "output_hash": "058e061c931108bb15b62e66743b118eb6ec4606babbea01ff67da690489ad47"
+}

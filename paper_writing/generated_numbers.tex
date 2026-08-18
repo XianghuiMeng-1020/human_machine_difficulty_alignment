@@ -1,0 +1,87 @@
+% AUTO-GENERATED — Part U, v2.1. Do NOT hand-edit; regenerate from
+% outputs/same_item_final/, outputs/race_final/, and audit/evidence/ source files.
+% Generated from: outputs/same_item_final/_core_v21_summary.json,
+% solver_quality_gate.csv, primary_binomial_regression.csv, human_estimator_agreement.csv,
+% outputs/encoder/seed_summary.json, outputs/llm/consensus_metrics.csv,
+% outputs/diagnostics/g6_stats.json, race_split_counts.json
+
+% ---------- EeDi same-item universe ----------
+\newcommand{\nEeDiContentAvailable}{948}
+\newcommand{\nEeDiSameItem}{944}
+\newcommand{\nEeDiExcluded}{4}
+\newcommand{\nEeDiResponseRows}{1{,}377{,}653}
+\newcommand{\nEeDiStudents}{4{,}918}
+\newcommand{\nEeDiFullPool}{27{,}613}
+
+% ---------- Solver quality gate / accuracies ----------
+\newcommand{\accQwen}{39.41\%}
+\newcommand{\accInternVL}{41.74\%}
+\newcommand{\accSmolVLM}{25.11\%}
+\newcommand{\smolMaxOptionShare}{0.694}
+
+% ---------- Primary same-item alignment (2-solver) ----------
+\newcommand{\rhoAlignmentPrimary}{0.1382}
+\newcommand{\rhoAlignmentPrimaryLower}{0.0766}
+\newcommand{\rhoAlignmentPrimaryUpper}{0.2011}
+\newcommand{\pAlignmentPrimary}{0.0002}
+\newcommand{\nAlignmentPrimary}{944}
+
+% ---------- Robustness (3-solver, independently recomputed) ----------
+\newcommand{\rhoAlignmentRobust}{0.1100}
+\newcommand{\rhoAlignmentRobustLower}{0.0487}
+\newcommand{\rhoAlignmentRobustUpper}{0.1719}
+\newcommand{\pAlignmentRobust}{0.0014}
+
+% ---------- Primary item-level binomial regression ----------
+\newcommand{\orAlignmentPrimary}{1.296}
+\newcommand{\orAlignmentPrimaryLower}{1.165}
+\newcommand{\orAlignmentPrimaryUpper}{1.450}
+\newcommand{\pOrAlignmentPrimary}{8.6\times10^{-8}}
+
+% ---------- Gradient ----------
+\newcommand{\rhoGradientDecile}{-0.818}
+\newcommand{\pGradientDecile}{0.0038}
+
+% ---------- Categorical agreement (secondary) ----------
+\newcommand{\kappaCategorical}{0.078}
+\newcommand{\kappaCategoricalLower}{0.028}
+\newcommand{\kappaCategoricalUpper}{0.127}
+
+% ---------- Selection bias ----------
+\newcommand{\smdMax}{1.52}
+\newcommand{\smdMaxVariable}{attempt count}
+
+% ---------- RACE dataset ----------
+\newcommand{\nRaceDev}{4{,}887}
+\newcommand{\nRaceMiddle}{1{,}436}
+\newcommand{\nRaceHigh}{3{,}451}
+
+% ---------- Longformer (3-seed) ----------
+\newcommand{\accLongformerMean}{74.07\%}
+\newcommand{\accLongformerSD}{0.32\%}
+\newcommand{\accLongformerMin}{73.73\%}
+\newcommand{\accLongformerMax}{74.34\%}
+
+% ---------- BigBird ----------
+\newcommand{\accBigBirdMiddle}{72.35\%}
+\newcommand{\accBigBirdHigh}{66.21\%}
+
+% ---------- RACE region association (canonical majority) ----------
+\newcommand{\vBandRegion}{0.164}
+\newcommand{\chiBandRegion}{131.78}
+\newcommand{\pBandRegion}{2.24\times10^{-28}}
+\newcommand{\vLLMRegion}{0.244}
+\newcommand{\chiLLMRegion}{290.96}
+
+% ---------- RACE LLM consensus ----------
+\newcommand{\nLLMConsensus}{4{,}873}
+\newcommand{\nLLMNoConsensus}{14}
+\newcommand{\accLLMConsensus}{95.36\%}
+\newcommand{\accLLMUnconditional}{95.09\%}
+\newcommand{\nLLMThreeWayAgree}{4{,}870}
+
+% ---------- RACE LLM backend coverage ----------
+\newcommand{\nDeepSeekValid}{4{,}884}
+\newcommand{\nGPTValid}{4{,}887}
+\newcommand{\nDoubaoValid}{4{,}887}
+\newcommand{\nDoubaoRawRows}{10{,}949}

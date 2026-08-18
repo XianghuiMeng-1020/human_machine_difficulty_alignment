@@ -1,0 +1,4 @@
+pair,n,spearman_rho,p
+IRT vs EB,944,0.9865119785177375,0.0
+IRT vs empirical,944,0.9927954429028315,0.0
+EB vs empirical,944,0.9932350084138003,0.0

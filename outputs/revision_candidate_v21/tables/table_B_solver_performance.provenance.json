@@ -1,0 +1,11 @@
+{
+  "table": "table_B_solver_performance",
+  "generated_utc": "2026-08-18T07:15:11.332484+00:00",
+  "source_hashes": {
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\solver_quality_gate.csv": "89e1f8a72eedcb8d5b37eed8018baccd2297b14298dde5eefd6db031fd682ffb"
+  },
+  "denominator": "n=944 per solver",
+  "filter": "all 3 solvers, full 944-item run",
+  "generation_command": "same_item_alignment/scripts/v21_latex_tables.py",
+  "output_hash": "06c80f9c6008aa0d92917a3be0f81afdf741bf253fd34a845db5819aa66999db"
+}

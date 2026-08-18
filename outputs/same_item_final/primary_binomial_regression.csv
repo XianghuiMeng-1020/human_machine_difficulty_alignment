@@ -1,0 +1,2 @@
+model,beta,se_analytic,or,or_ci_lower_analytic,or_ci_upper_analytic,or_ci_lower_item_bootstrap,or_ci_upper_item_bootstrap,p,n_items,n_trials_per_item,overdispersion_pearson_ratio,n_bootstrap_replicates,random_seed
+"Errors_i ~ Binomial(2,p_i); logit(p_i)=b0+b1*z(IRT)",0.25927750694269014,0.04841990897726361,1.2959934020971338,1.1786556217159234,1.4250124186690691,1.165428795956379,1.450385441896153,8.566501127499946e-08,944,2,1.4030919062831417,5000,20260818

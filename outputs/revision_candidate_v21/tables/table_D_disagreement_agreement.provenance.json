@@ -1,0 +1,12 @@
+{
+  "table": "table_D_disagreement_agreement",
+  "generated_utc": "2026-08-18T07:15:11.338484+00:00",
+  "source_hashes": {
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\disagreement_primary_2solver.csv": "52bec6c18b8e5177be57a164a24083e4b72aac012cfbc4dfa0826a1921222372",
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\categorical_agreement.csv": "2be04963f819c05b2de81234b260d69367d30e2c4588e9d14fe384f4280e0204"
+  },
+  "denominator": "n=944",
+  "filter": "944-item human-quartile x machine 2-solver-state taxonomy",
+  "generation_command": "same_item_alignment/scripts/v21_latex_tables.py",
+  "output_hash": "591bcd5a4964527baff6f0ab1a5c8b0cfe32068a70db20bdc8056558dd051972"
+}

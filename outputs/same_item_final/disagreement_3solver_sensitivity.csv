@@ -1,0 +1,7 @@
+cell,n,pct_of_944
+aligned_easy (human_easy & machine_majority_easy),103,10.911016949152543
+aligned_hard (human_hard & machine_majority_hard),169,17.902542372881356
+human_hard_machine_easy,67,7.0974576271186445
+human_easy_machine_hard,133,14.088983050847459
+denominator_human_easy_quartile,236,25.0
+denominator_human_hard_quartile,236,25.0

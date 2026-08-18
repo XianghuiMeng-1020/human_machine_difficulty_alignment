@@ -1,0 +1,2 @@
+checkpoint,MIDDLE_accuracy,HIGH_accuracy,band_x_region_cramers_v,switch_rate_vs_longformer,n
+google/bigbird-roberta-base,0.7235376044568245,0.6621269197334106,0.10835896886718531,0.5334561080417434,4887

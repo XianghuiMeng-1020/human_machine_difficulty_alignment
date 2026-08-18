@@ -1,0 +1,2 @@
+model,beta_z_irt,se,or_per_1sd_irt,or_ci_lower_item_bootstrap,or_ci_upper_item_bootstrap,p,n_item_solver_rows,n_item_clusters,n_bootstrap_replicates,random_seed
+machine_error ~ z(IRT) + solver_fixed_effect,0.25942651538871286,0.048434184327106874,1.2961865304485565,1.169625474144363,1.4550324879395344,8.495804105747933e-08,1888,944,5000,20260818

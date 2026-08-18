@@ -1,0 +1,4 @@
+solver_id,solver_label,n_items,n_correct,accuracy,parse_success,A_count,B_count,C_count,D_count,maximum_option_share,option_entropy,clearly_above_25pct_chance,answer_collapse_flag_ge70pct,pilot_n,pilot_accuracy,pilot_parse_success,pilot_A_share,pilot_B_share,pilot_C_share,pilot_D_share,pilot_max_option_share,pilot_entropy
+solver_1_qwen2vl7b,Qwen2-VL-7B-Instruct,944,372,0.3940677966101695,1.0,124,445,293,82,0.4713983050847458,1.7262206508265687,True,False,50,0.42,1.0,0.08,0.52,0.3,0.1,0.52,1.6353675481700651
+solver_2_internvl3_8b,InternVL3-8B-hf,944,394,0.4173728813559322,1.0,93,295,351,205,0.3718220338983051,1.8629359183109098,True,False,50,0.4,1.0,0.08,0.36,0.36,0.2,0.36,1.8171245697587872
+solver_3_smolvlm2_2b,SmolVLM2-2.2B-Instruct,944,237,0.2510593220338983,1.0,0,655,70,219,0.6938559322033898,1.1331905648310607,False,False,50,0.26,1.0,0.0,0.82,0.06,0.12,0.82,0.845370295858088

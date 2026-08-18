@@ -1,0 +1,2 @@
+predictor,outcome,n,rho,ci_lower,ci_upper,perm_p,parametric_p,n_bootstrap_replicates,n_permutation_replicates,random_seed
+human_irt_difficulty,machine_error_primary_2solver,944,0.13823642588882798,0.07661661848919367,0.20113350900751112,0.0001999600079984003,2.025083880624604e-05,5000,5000,20260818

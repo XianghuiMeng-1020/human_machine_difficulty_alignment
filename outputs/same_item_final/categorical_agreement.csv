@@ -1,0 +1,2 @@
+kappa_weighted_linear,kappa_ci_lower,kappa_ci_upper,observed_agreement,expected_agreement_chance,n,n_bootstrap_replicates,random_seed,note
+0.0782072507013769,0.02836724798957508,0.12711192332305166,0.3633474576271186,0.33338570094800346,944,5000,20260823,SECONDARY derived-ordinal comparison; NOT the primary alignment definition (see primary_alignment.csv).

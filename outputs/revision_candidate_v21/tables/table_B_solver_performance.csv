@@ -1,0 +1,4 @@
+solver_label,n_items,accuracy,parse_success,maximum_option_share,clearly_above_25pct_chance,answer_collapse_flag_ge70pct
+Qwen2-VL-7B-Instruct,944,0.3940677966101695,1.0,0.4713983050847458,True,False
+InternVL3-8B-hf,944,0.4173728813559322,1.0,0.3718220338983051,True,False
+SmolVLM2-2.2B-Instruct,944,0.2510593220338983,1.0,0.6938559322033898,False,False

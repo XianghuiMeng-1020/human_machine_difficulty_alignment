@@ -1,0 +1,4 @@
+solver_id,hf_model_id,revision,questions_submitted,successful_parses,invalid_parses,missing_outputs,correct_count,incorrect_count,accuracy
+solver_1_qwen2vl7b,Qwen/Qwen2-VL-7B-Instruct,main,944,944,0,0,372,572,0.3940677966101695
+solver_2_internvl3_8b,OpenGVLab/InternVL3-8B-hf,main,944,944,0,0,394,550,0.4173728813559322
+solver_3_smolvlm2_2b,HuggingFaceTB/SmolVLM2-2.2B-Instruct,main,944,944,0,0,237,707,0.2510593220338983

@@ -1,0 +1,12 @@
+{
+  "table": "table_C_alignment_statistics",
+  "generated_utc": "2026-08-18T07:15:11.335484+00:00",
+  "source_hashes": {
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\primary_alignment.csv": "8020b75faab91233d46c2b236913686ca60ec10cecf3dc515693c1b04b7306be",
+    "E:\\Digedu SI - DifficultyAlignment\\Digedu SI - DifficultyAlignment\\outputs\\same_item_final\\primary_binomial_regression.csv": "590313887c2b1d09037aaddf16a5d9dc87783f3d1126b5e49ee8049804f309cc"
+  },
+  "denominator": "n=944",
+  "filter": "944-item clean universe, primary 2-solver ensemble",
+  "generation_command": "same_item_alignment/scripts/v21_latex_tables.py",
+  "output_hash": "d4e6e1608c04ac43f1370a1c508adaa2c201e120819e4b5c707ef4c6c3e77844"
+}

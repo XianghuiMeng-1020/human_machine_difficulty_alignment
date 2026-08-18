@@ -1,0 +1,13 @@
+architecture,seed,spec,region_counts,band_x_region_cramers_v_recomputed,llm_incorrect_x_region_cramers_v_recomputed
+Longformer,0,p20_80,"{""middle"": 2179, ""hard"": 1981, ""easy"": 727}",0.17669709386205473,0.20307683898115692
+Longformer,0,quartile_25_75,"{""hard"": 2163, ""middle"": 1815, ""easy"": 909}",0.17354445293862922,0.1951226079343214
+Longformer,0,tercile_33_67,"{""hard"": 2465, ""easy"": 1211, ""middle"": 1211}",0.15737556837662925,0.18282437036606278
+Longformer,1,p20_80,"{""middle"": 2174, ""hard"": 1988, ""easy"": 725}",0.16589743746506677,0.19280592791927484
+Longformer,1,quartile_25_75,"{""hard"": 2169, ""middle"": 1812, ""easy"": 906}",0.1533346413192096,0.19218491251809863
+Longformer,1,tercile_33_67,"{""hard"": 2471, ""easy"": 1208, ""middle"": 1208}",0.1479147415381031,0.1782281904688442
+Longformer,2,p20_80,"{""middle"": 2161, ""hard"": 2005, ""easy"": 721}",0.15969555900508842,0.21180291124453357
+Longformer,2,quartile_25_75,"{""hard"": 2185, ""middle"": 1801, ""easy"": 901}",0.15112993047534312,0.2017495936024535
+Longformer,2,tercile_33_67,"{""hard"": 2485, ""easy"": 1201, ""middle"": 1201}",0.14252792529855926,0.18208146833132113
+BigBird,n/a (single BigBird run),tercile,"{""ambiguous"": 1613, ""hard"": 1266, ""middle"": 1205, ""easy"": 803}",0.1083589688671853,0.1502758909737452
+BigBird,n/a (single BigBird run),quartile,"{""middle"": 1880, ""ambiguous"": 1222, ""hard"": 1143, ""easy"": 642}",0.103208076265016,0.1561002704258071
+BigBird,n/a (single BigBird run),p40_60,"{""ambiguous"": 1955, ""hard"": 1197, ""easy"": 934, ""middle"": 801}",0.0961049241802856,0.1500418716684222

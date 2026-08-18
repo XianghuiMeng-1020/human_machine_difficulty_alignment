@@ -1,0 +1,8 @@
+cell,n
+human_easy_machine_easy,78.0
+human_easy_machine_mixed,76.0
+human_easy_machine_hard,82.0
+human_hard_machine_easy,45.0
+human_hard_machine_mixed,70.0
+human_hard_machine_hard,121.0
+weighted_kappa(secondary),0.0782072507013769
